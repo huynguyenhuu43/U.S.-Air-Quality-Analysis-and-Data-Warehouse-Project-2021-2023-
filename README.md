@@ -1,8 +1,8 @@
 <h1 align="center" style="color:#4CAF50;">🌈 HCMUS_CSC12107 – Đồ án thực hành - 2425.BI.DATH 🌈</h1>
 
-<p align="center">
+
   <strong>Nhóm: 3</strong> _ Thành viên:
-</p>
+
 
 | MSSV     | Họ và Tên               |
 |----------|--------------------------|
