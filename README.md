@@ -1,18 +1,31 @@
 # BI2425
 MÃ HỌC PHẦN: CSC12107
+
 Nhóm: 3 _ Thành viên:
+
 19127536 - Võ Lâm Hải Quốc
+
 21127211 - Nguyễn Vũ Tường An
+
 21127450 - Võ Trung Tín
+
 21127699 - Lô Thủy Tiên
 
+
 HCMUS_CSC12107 – Đồ án thực hành - 2425.BI.DATH
+
 Mã học phần: CSC12107
+
 Tên học phần: Hệ thống thông tin phục vụ trí tuệ kinh doanh
+
 Tên : Đồ án thực hành - 2425.BI.DATH
+
 Hình thức:  
+
 - Báo cáo (.doc, ppt)
+
 - Source demo
+
 - Video demo
 Mô tả:
 Dữ liệu sẽ được phân tích để phát hiện các xu hướng và mẫu trong chất lượng không khí của Hoa Kỳ từ năm 2021 đến 2023. Đồ án yêu cầu xây dựng một kho dữ liệu (DW) từ các nguồn dữ liệu thô, sau đó triển khai các quy trình ETL, thiết kế mô hình OLAP, thực hiện phân tích dữ liệu và tạo các báo cáo.
