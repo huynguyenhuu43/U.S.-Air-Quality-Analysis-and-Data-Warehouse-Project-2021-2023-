@@ -1,13 +1,16 @@
 <h1 align="center" style="color:#4CAF50;">🌈 HCMUS_CSC12107 – Đồ án thực hành - 2425.BI.DATH 🌈</h1>
-<p align="center" style="color:#9C27B0; font-size: 20px;">
-  ## Nhóm: 3 _ Thành viên:
+
+<p align="center">
+  <strong>Nhóm: 3</strong> _ Thành viên:
 </p>
+
 | MSSV     | Họ và Tên               |
 |----------|--------------------------|
 | 19127536 | Võ Lâm Hải Quốc          |
 | 21127211 | Nguyễn Vũ Tường An       |
 | 21127450 | Võ Trung Tín             |
 | 21127699 | Lô Thủy Tiên             |
+
 
 ## 📘 Thông tin học phần
 
