@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL_AIR", "ETL_AIR\ETL_AIR.dtproj", "{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}.Development|Default.ActiveCfg = Development
+		{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D88D6D4F-3BB4-4517-A4D0-72CCA57D39A9}
+	EndGlobalSection
+EndGlobal
