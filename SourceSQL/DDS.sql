@@ -39,8 +39,6 @@ CREATE TABLE [dbo].[DIM_Counties](
 	[CountyASCII] [varchar](50) NULL,
 	[CountyFull] [varchar](50) NULL,
 	[CountyFips] [int] NULL,
-	[Latitude] [FLOAT] NULL,
-	[Longitude] [FLOAT] NULL,
 	[Population] [int] NULL,
 	[Created] [date] NULL,
 	[LastUpdated] [date] NULL,
