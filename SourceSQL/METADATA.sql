@@ -35,8 +35,20 @@ go*/
 -- stage
 INSERT Data_Flow (TableName, LSET, CET) VALUES ('Counties', GETDATE(), GETDATE())
 INSERT Data_Flow (TableName, LSET, CET) VALUES ('Air_Quality', GETDATE(), GETDATE())
+INSERT Data_Flow (TableName, LSET, CET) VALUES ('DIM_Parameter', GETDATE(), GETDATE())
+INSERT Data_Flow (TableName, LSET, CET) VALUES ('DIM_States', GETDATE(), GETDATE())
+INSERT Data_Flow (TableName, LSET, CET) VALUES ('DIM_Counties', GETDATE(), GETDATE())
+INSERT Data_Flow (TableName, LSET, CET) VALUES ('DIM_Date', GETDATE(), GETDATE())
+INSERT Data_Flow (TableName, LSET, CET) VALUES ('FACT_AirQuality', GETDATE(), GETDATE())
 
 
+DELETE FROM Data_Flow
+WHERE TableName = 'Dim_Counties'
+
+UPDATE Data_Flow
+SET LSET = DATEADD(DAY, -1, GETDATE()), 
+    CET = DATEADD(DAY, -1, GETDATE())
+WHERE TableName IN ('Counties', 'Air_Quality', 'DIM_Parameter', 'DIM_States', 'DIM_Counties', 'DIM_Date', 'FACT_AirQuality');
 
 SELECT * FROM Data_Flow
 go

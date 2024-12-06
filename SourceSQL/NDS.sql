@@ -13,11 +13,13 @@ USE MASTER
 DROP TABLE NDS_AirData
 DROP TABLE NDS_Counties
 DROP TABLE NDS_States
+DROP TABLE [dbo].[SourceData]
 */
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+
 
 CREATE TABLE NDS_States (
     StateSK INT IDENTITY(1,1) PRIMARY KEY, -- Surrogate Key
@@ -100,7 +102,11 @@ SELECT * FROM SourceData
 
 SELECT StateSK, StateID
 FROM NDS_States
-WHERE SourceID = 2
 
-SELECT DISTINCT StateSK, StateID
-FROM NDS_States
+SELECT CountyName, COUNT(*) AS DuplicateCount
+FROM NDS_Counties
+GROUP BY CountyName
+HAVING COUNT(*) > 1;
+
+
+
