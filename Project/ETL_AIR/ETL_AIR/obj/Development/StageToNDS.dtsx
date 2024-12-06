@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="120"
-  DTS:VersionGUID="{8D4576DF-93C8-4021-B43D-4E6EAF6A9527}">
+  DTS:VersionBuild="121"
+  DTS:VersionGUID="{9196748D-1248-45B8-ACA4-1EAD000145E8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3359,7 +3359,7 @@ WHERE CountySK = ?</property>
                   description="The SQL command to be executed."
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT state_id, state_name
-FROM Counties_STAGE</property>
+FROM Counties_STAGE;</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
@@ -3376,7 +3376,7 @@ FROM Counties_STAGE</property>
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">2</property>
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
@@ -3419,25 +3419,6 @@ FROM Counties_STAGE</property>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[county]"
-                      dataType="wstr"
-                      length="50"
-                      name="county" />
-                    <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[county_ascii]"
-                      dataType="wstr"
-                      length="50"
-                      name="county_ascii" />
-                    <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[county_full]"
-                      dataType="wstr"
-                      length="50"
-                      name="county_full" />
-                    <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[county_fips]"
-                      dataType="i4"
-                      name="county_fips" />
-                    <externalMetadataColumn
                       refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[state_id]"
                       dataType="wstr"
                       length="50"
@@ -3447,18 +3428,6 @@ FROM Counties_STAGE</property>
                       dataType="wstr"
                       length="50"
                       name="state_name" />
-                    <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[lat]"
-                      dataType="r8"
-                      name="lat" />
-                    <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[lng]"
-                      dataType="r8"
-                      name="lng" />
-                    <externalMetadataColumn
-                      refId="Package\Import to NDS_States\Load Counties_STAGE.Outputs[OLE DB Source Output].ExternalColumns[population]"
-                      dataType="i4"
-                      name="population" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -4040,21 +4009,21 @@ WHERE StateSK = ?</property>
         <NodeLayout
           Size="186,42"
           Id="Package\Import to NDS_States"
-          TopLeft="96,63" />
+          TopLeft="96,62" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="189,105">
+          TopLeft="189,104">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,68"
+              EndConnector="0,69"
               Start="0,0"
-              End="0,60.5">
+              End="0,61.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.5" />
+                    End="0,61.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4288,31 +4257,156 @@ WHERE StateSK = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_AirData\Load Air_Quality_STAGE">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_AirData\Insert new Air_Quaility into NDS_AirData">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_AirData\Lookup StateSK in NDS_States">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_AirData\Lookup AirDataSK in NDS_AirData">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_AirData\Lookup CountySK in NDS_Counties">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Import to NDS_Counties">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="287,42"
-          Id="Package\Import to NDS_Counties\Lookup County_Code in Counties_STAGE"
-          TopLeft="187,298" />
+          Size="233,42"
+          Id="Package\Import to NDS_Counties\Lookup StageID in NDS_States"
+          TopLeft="208,199" />
+        <NodeLayout
+          Size="272,42"
+          Id="Package\Import to NDS_Counties\Insert new Counties into NDS_Counties"
+          TopLeft="383,491" />
+        <NodeLayout
+          Size="255,42"
+          Id="Package\Import to NDS_Counties\Lookup CountySK in NDS_Counties"
+          TopLeft="205,395" />
         <NodeLayout
           Size="190,42"
           Id="Package\Import to NDS_Counties\Update NDS_Counties"
           TopLeft="53,486" />
         <NodeLayout
+          Size="287,42"
+          Id="Package\Import to NDS_Counties\Lookup County_Code in Counties_STAGE"
+          TopLeft="187,298" />
+        <NodeLayout
           Size="193,42"
           Id="Package\Import to NDS_Counties\Load Counties_STAGE"
           TopLeft="230,22" />
         <NodeLayout
-          Size="233,42"
-          Id="Package\Import to NDS_Counties\Lookup StageID in NDS_States"
-          TopLeft="208,199" />
-        <NodeLayout
           Size="209,42"
           Id="Package\Import to NDS_Counties\Add Created, LastUpdated"
           TopLeft="222,113" />
+        <EdgeLayout
+          Id="Package\Import to NDS_Counties.Paths[Derived Column Output]"
+          TopLeft="325.5,155">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Import to NDS_Counties.Paths[OLE DB Source Output]"
           TopLeft="326.5,64">
@@ -4336,80 +4430,38 @@ WHERE StateSK = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Import to NDS_Counties.Paths[Lookup Match Output]"
-          TopLeft="327.5,241">
+          Id="Package\Import to NDS_Counties.Paths[Lookup No Match Output]"
+          TopLeft="373.666666666667,437">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57"
+              EndConnector="145.333333333333,54"
               Start="0,0"
-              End="0,49.5">
+              End="145.333333333333,46.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.5" />
+                    End="0,17.8020265003897" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.8020265003897"
+                    Point2="0,21.8020265003897"
+                    Point3="4,21.8020265003897" />
+                  <mssgle:LineSegment
+                    End="141.333333333333,21.8020265003897" />
+                  <mssgle:CubicBezierSegment
+                    Point1="141.333333333333,21.8020265003897"
+                    Point2="145.333333333333,21.8020265003897"
+                    Point3="145.333333333333,25.8020265003897" />
+                  <mssgle:LineSegment
+                    End="145.333333333333,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,18.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Import to NDS_Counties.Paths[Derived Column Output]"
-          TopLeft="325.5,155">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44"
-              Start="0,0"
-              End="0,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="272,42"
-          Id="Package\Import to NDS_Counties\Insert new Counties into NDS_Counties"
-          TopLeft="383,491" />
-        <NodeLayout
-          Size="255,42"
-          Id="Package\Import to NDS_Counties\Lookup CountySK in NDS_Counties"
-          TopLeft="205,395" />
-        <EdgeLayout
-          Id="Package\Import to NDS_Counties.Paths[Lookup Match Output1]"
-          TopLeft="331.5,340">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,55"
-              Start="0,0"
-              End="0,47.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,17.9453125,96.3827734375,11.609375"
+              BoundingBox="16.8602799479167,26.8020265003897,111.6127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -4450,38 +4502,50 @@ WHERE StateSK = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Import to NDS_Counties.Paths[Lookup No Match Output]"
-          TopLeft="373.666666666667,437">
+          Id="Package\Import to NDS_Counties.Paths[Lookup Match Output1]"
+          TopLeft="331.5,340">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="145.333333333333,54"
+              EndConnector="0,55"
               Start="0,0"
-              End="145.333333333333,46.5">
+              End="0,47.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.8020265003897" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.8020265003897"
-                    Point2="0,21.8020265003897"
-                    Point3="4,21.8020265003897" />
-                  <mssgle:LineSegment
-                    End="141.333333333333,21.8020265003897" />
-                  <mssgle:CubicBezierSegment
-                    Point1="141.333333333333,21.8020265003897"
-                    Point2="145.333333333333,21.8020265003897"
-                    Point3="145.333333333333,25.8020265003897" />
-                  <mssgle:LineSegment
-                    End="145.333333333333,46.5" />
+                    End="0,47.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="16.8602799479167,26.8020265003897,111.6127734375,11.609375"
+              BoundingBox="-48.19138671875,17.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import to NDS_Counties.Paths[Lookup Match Output]"
+          TopLeft="327.5,241">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57"
+              Start="0,0"
+              End="0,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,18.9453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -4489,12 +4553,12 @@ WHERE StateSK = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_Counties\Lookup County_Code in Counties_STAGE">
+    design-time-name="Package\Import to NDS_Counties\Lookup StageID in NDS_States">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4504,7 +4568,66 @@ WHERE StateSK = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_Counties\Insert new Counties into NDS_Counties">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_Counties\Lookup CountySK in NDS_Counties">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import to NDS_Counties\Lookup County_Code in Counties_STAGE">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4524,38 +4647,27 @@ WHERE StateSK = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_Counties\Lookup StageID in NDS_States">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Import to NDS_States">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="248,42"
+          Id="Package\Import to NDS_States\Insert new States into NDS_States"
+          TopLeft="568,388" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Import to NDS_States\Lookup Stage_Code"
+          TopLeft="433,185" />
+        <NodeLayout
           Size="193,42"
           Id="Package\Import to NDS_States\Load Counties_STAGE"
           TopLeft="429,25" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Import to NDS_States\Add Created, LastUpdated"
+          TopLeft="417,105" />
         <NodeLayout
           Size="189,44"
           Id="Package\Import to NDS_States\Update NDS_States"
@@ -4565,45 +4677,27 @@ WHERE StateSK = ?</property>
           Id="Package\Import to NDS_States\Lookup StageID in Counties_STAGE"
           TopLeft="389,274" />
         <EdgeLayout
-          Id="Package\Import to NDS_States.Paths[Lookup Match Output]"
-          TopLeft="476.666666666667,316">
+          Id="Package\Import to NDS_States.Paths[OLE DB Source Output]"
+          TopLeft="523.5,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-158.166666666667,68"
+              EndConnector="0,38"
               Start="0,0"
-              End="-158.166666666667,60.5">
+              End="0,30.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.4504988488104" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.4504988488104"
-                    Point2="0,27.4504988488104"
-                    Point3="-4,27.4504988488104" />
-                  <mssgle:LineSegment
-                    End="-154.166666666667,27.4504988488104" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-154.166666666667,27.4504988488104"
-                    Point2="-158.166666666667,27.4504988488104"
-                    Point3="-158.166666666667,31.4504988488104" />
-                  <mssgle:LineSegment
-                    End="-158.166666666667,60.5" />
+                    End="0,30.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-127.274720052083,32.4504988488104,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="248,42"
-          Id="Package\Import to NDS_States\Insert new States into NDS_States"
-          TopLeft="568,388" />
         <EdgeLayout
           Id="Package\Import to NDS_States.Paths[Lookup No Match Output]"
           TopLeft="560.333333333333,316">
@@ -4640,58 +4734,6 @@ WHERE StateSK = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="209,42"
-          Id="Package\Import to NDS_States\Add Created, LastUpdated"
-          TopLeft="417,105" />
-        <EdgeLayout
-          Id="Package\Import to NDS_States.Paths[OLE DB Source Output]"
-          TopLeft="523.5,67">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="179,42"
-          Id="Package\Import to NDS_States\Lookup Stage_Code"
-          TopLeft="433,185" />
-        <EdgeLayout
-          Id="Package\Import to NDS_States.Paths[Derived Column Output]"
-          TopLeft="522,147">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Import to NDS_States.Paths[Lookup Match Output1]"
           TopLeft="520.5,227">
@@ -4716,45 +4758,67 @@ WHERE StateSK = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import to NDS_States.Paths[Lookup Match Output]"
+          TopLeft="476.666666666667,316">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-158.166666666667,68"
+              Start="0,0"
+              End="-158.166666666667,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.4504988488104" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.4504988488104"
+                    Point2="0,27.4504988488104"
+                    Point3="-4,27.4504988488104" />
+                  <mssgle:LineSegment
+                    End="-154.166666666667,27.4504988488104" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-154.166666666667,27.4504988488104"
+                    Point2="-158.166666666667,27.4504988488104"
+                    Point3="-158.166666666667,31.4504988488104" />
+                  <mssgle:LineSegment
+                    End="-158.166666666667,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-127.274720052083,32.4504988488104,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import to NDS_States.Paths[Derived Column Output]"
+          TopLeft="522,147">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_States\Load Counties_STAGE">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_States\Lookup StageID in Counties_STAGE">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Import to NDS_States\Insert new States into NDS_States">
     <Properties>
@@ -4774,7 +4838,7 @@ WHERE StateSK = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4784,7 +4848,7 @@ WHERE StateSK = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4792,7 +4856,7 @@ WHERE StateSK = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_Counties\Insert new Counties into NDS_Counties">
+    design-time-name="Package\Import to NDS_States\Load Counties_STAGE">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4805,12 +4869,12 @@ WHERE StateSK = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_Counties\Lookup CountySK in NDS_Counties">
+    design-time-name="Package\Import to NDS_States\Lookup StageID in Counties_STAGE">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -4820,102 +4884,7 @@ WHERE StateSK = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_AirData\Load Air_Quality_STAGE">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_AirData\Lookup CountySK in NDS_Counties">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_AirData\Insert new Air_Quaility into NDS_AirData">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_AirData\Lookup AirDataSK in NDS_AirData">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Import to NDS_AirData\Lookup StateSK in NDS_States">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>

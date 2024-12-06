@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}|ETL_AIR\\ETL_AIR.dtproj|D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\StageToNDS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}|ETL_AIR\\ETL_AIR.dtproj|solutionrelative:ETL_AIR\\StageToNDS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}|ETL_AIR\\ETL_AIR.dtproj|D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\NDSToDDS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}|ETL_AIR\\ETL_AIR.dtproj|solutionrelative:ETL_AIR\\NDSToDDS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E524D647-A5DD-4396-B66F-1DA0A05BA7DC}|ETL_AIR\\ETL_AIR.dtproj|D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\SourceToStage.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
@@ -29,19 +29,19 @@
               "ToolTip": "D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\SourceToStage.dtsx [Design]",
               "RelativeToolTip": "ETL_AIR\\SourceToStage.dtsx [Design]",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-12-02T07:52:21.648Z",
+              "WhenOpened": "2024-12-06T11:40:58.423Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StageToNDS.dtsx [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\StageToNDS.dtsx",
-              "RelativeDocumentMoniker": "ETL_AIR\\StageToNDS.dtsx",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\StageToNDS.dtsx [Design]*",
-              "RelativeToolTip": "ETL_AIR\\StageToNDS.dtsx [Design]*",
+              "Title": "NDSToDDS.dtsx [Design]",
+              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\NDSToDDS.dtsx",
+              "RelativeDocumentMoniker": "ETL_AIR\\NDSToDDS.dtsx",
+              "ToolTip": "D:\\lolo\\lo hc\\BI\\Project\\Project\\ETL_AIR\\ETL_AIR\\NDSToDDS.dtsx [Design]*",
+              "RelativeToolTip": "ETL_AIR\\NDSToDDS.dtsx [Design]*",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-11-23T02:59:42.52Z",
+              "WhenOpened": "2024-12-05T12:44:02.702Z",
               "EditorCaption": " [Design]"
             }
           ]
