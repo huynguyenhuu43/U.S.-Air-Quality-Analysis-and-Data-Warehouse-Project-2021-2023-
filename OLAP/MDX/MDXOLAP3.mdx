@@ -1,0 +1,43 @@
+WITH 
+MEMBER [Measures].[Number Of Days] AS
+    COUNT(
+        FILTER(
+            [Dim Date].[Date].[Date].MEMBERS,
+            (
+                [FACT Air Quality].[Category].CURRENTMEMBER IS [Category].[Very Unhealthy] 
+                OR [FACT Air Quality].[Category].CURRENTMEMBER IS [Category].[Hazardous]
+            )
+            AND [Measures].[AQI] > 0
+        )
+    )
+
+MEMBER [Measures].[MeanAQI] AS
+    AVG(
+        FILTER(
+            [Dim Date].[Date].[Date].MEMBERS,
+            (
+                [FACT Air Quality].[Category].CURRENTMEMBER IS [Category].[Very Unhealthy]
+                OR [FACT Air Quality].[Category].CURRENTMEMBER IS [Category].[Hazardous]
+            )
+        ),
+        [Measures].[AQI]
+    )
+
+SELECT 
+  {[Measures].[Number Of Days], [Measures].[MeanAQI]} ON COLUMNS,
+  NON EMPTY 
+  ORDER(
+    FILTER(
+      CROSSJOIN(
+        {[Dim States].[State Name].MEMBERS},
+        CROSSJOIN(
+          [Dim Counties].[County Name].[County Name].MEMBERS,
+          {[FACT Air Quality].[Category].&[Very Unhealthy],
+		  [FACT Air Quality].[Category].&[Hazardous]}
+        )
+      ),
+      [Measures].[Number of Days] > 0
+    ),
+    [Measures].[Number of Days], DESC
+  ) ON ROWS
+FROM [OLAP3]

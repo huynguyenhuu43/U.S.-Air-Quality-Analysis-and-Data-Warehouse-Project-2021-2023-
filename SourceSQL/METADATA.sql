@@ -1,4 +1,4 @@
-CREATE DATABASE METADATA
+﻿CREATE DATABASE METADATA
 GO
 
 USE METADATA
@@ -49,6 +49,13 @@ UPDATE Data_Flow
 SET LSET = DATEADD(DAY, -1, GETDATE()), 
     CET = DATEADD(DAY, -1, GETDATE())
 WHERE TableName IN ('Counties', 'Air_Quality', 'DIM_Parameter', 'DIM_States', 'DIM_Counties', 'DIM_Date', 'FACT_AirQuality');
+
+UPDATE Data_Flow
+SET 
+    LSET = DATEADD(YEAR, -4, LSET),  -- Giảm 4 năm để đưa về 2020
+    CET = DATEADD(YEAR, -4, CET)   -- Giảm 4 năm để đưa về 2020
+WHERE TableName IN ('Counties', 'Air_Quality', 'DIM_Parameter', 'DIM_States', 'DIM_Counties', 'DIM_Date', 'FACT_AirQuality');
+
 
 SELECT * FROM Data_Flow
 go

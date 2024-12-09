@@ -1,0 +1,25 @@
+﻿WITH 
+MEMBER [Measures].[MeanAQI] AS
+    AVG(
+        EXISTING [Dim Date].[Date].[Date].MEMBERS, 
+        [Measures].[AQI] 
+    )
+
+SELECT 
+  ORDER(
+      NONEMPTY(
+          [Dim Date].[Month].[Month].MEMBERS, 
+          [Measures].[MeanAQI]
+      ),
+      [Dim Date].[Month].CURRENTMEMBER.MEMBER_KEY, ASC 
+  ) ON ROWS,
+  NON EMPTY 
+  {
+    [Dim States].[State Name].&[Hawaii],
+    [Dim States].[State Name].&[Alabama],
+    [Dim States].[State Name].&[Utah],
+    [Dim States].[State Name].&[Georgia]
+  } ON COLUMNS
+FROM [OLAP6]
+WHERE 
+  ([Measures].[MeanAQI])

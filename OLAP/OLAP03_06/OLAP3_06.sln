@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP3", "OLAP3\OLAP3.dwproj", "{82FEAE7A-F13F-468E-ACB3-FE48213478FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FEAE7A-F13F-468E-ACB3-FE48213478FA}.Development|Default.ActiveCfg = Development
+		{82FEAE7A-F13F-468E-ACB3-FE48213478FA}.Development|Default.Build.0 = Development
+		{82FEAE7A-F13F-468E-ACB3-FE48213478FA}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D36A571B-36E1-4ED8-B748-4E4D49090166}
+	EndGlobalSection
+EndGlobal

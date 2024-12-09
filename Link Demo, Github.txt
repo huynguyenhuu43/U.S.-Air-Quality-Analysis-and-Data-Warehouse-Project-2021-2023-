@@ -1,3 +1,5 @@
 Báo cáo từ Github:
 Link: https://github.com/Locung201/BI2425
-Youtube Demo:https://www.youtube.com/watch?v=hoX4RLBOON0
+Youtube Demo:
+1. Source -> Stage -> NDS: https://www.youtube.com/watch?v=hoX4RLBOON0
+2. NDS -> DDS: https://youtu.be/HdpkzpeXC-c

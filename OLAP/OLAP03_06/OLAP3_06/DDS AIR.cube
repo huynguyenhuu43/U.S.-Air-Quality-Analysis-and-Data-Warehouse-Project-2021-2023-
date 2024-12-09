@@ -1,0 +1,506 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="913b6590-e0f6-40aa-93c5-26b95acff2f0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DDS AIR 1</ID>
+  <Name>DDS AIR</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c0e560c2-b7c5-466d-808c-517dc12e505f">
+      <ID>FACT Air Quality 1</ID>
+      <Name>FACT Air Quality 1</Name>
+      <DimensionID>FACT Air Quality 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4f15c225-c5ae-4d03-8de0-86d5ac5094f0">
+          <AttributeID>Air Data SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d02d1cbd-46d7-4bd9-a464-bc920bc8313b">
+          <AttributeID>Date SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6a05996-3f7d-4521-8f93-66ba4cdcfe6b">
+          <AttributeID>County SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13277f22-ddcd-4b96-ad15-2b2eb1b846f9">
+          <AttributeID>State SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80eb36f8-99bf-462d-bc6f-15fea0037684">
+          <AttributeID>Parameter SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6c28457-3230-49d2-9677-6e901d912748">
+          <AttributeID>AQI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="886cd948-cb2d-4ab0-a64c-5fecf65f6f92">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="df6fa2b7-38a6-482d-a6d8-3295ac8b907a">
+          <AttributeID>State Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e3211640-3e61-4c12-9cdc-b06eb4d4248a">
+          <AttributeID>County Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd5ef229-9262-434f-be20-02da1eaed2bc">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8eb8a034-6025-4482-9145-c89adac8d4ca">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fa2cea14-6c00-4a65-a10c-d491ffc4c21a">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc42285c-3836-491e-a2ce-b66d7c21a029">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f332ec2a-5b48-4b48-853a-9c61479f6221">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="c2eae923-5a6d-4bbf-947f-bd1aa136ceeb">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="4dff1aa0-665a-40f0-b4bf-2518f958e55c">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="1146f68f-8cfd-4941-bff8-4b12e856253d">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="df7aeb19-ea4a-47f0-ade2-3258d89adda0">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="775ab9fe-b381-4252-99fd-6f871a461f4f">
+      <ID>Date SK</ID>
+      <Name>Date SK</Name>
+      <DimensionID>FACT Air Quality 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ab576363-7c8d-4e49-89ec-a22110afec29">
+          <AttributeID>Air Data SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8c096bc8-3954-4036-bf80-e675725d4aaf">
+          <AttributeID>Date SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f041813-2741-4a6a-9fce-2e40c5de615d">
+          <AttributeID>County SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f8537ec-c8fa-48b9-98e7-f99ea38a7ccc">
+          <AttributeID>State SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c16d1ab-085a-4e6f-9da2-f55bd9a2c5a5">
+          <AttributeID>Parameter SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3d69baa-fdf5-4d60-a449-2e79eaf750c9">
+          <AttributeID>AQI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd5e9d91-27b4-4262-9ae0-b0dc508bae91">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e22e4030-0215-4447-ba22-3ac5f6bd8883">
+          <AttributeID>State Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2672a1c1-7f3a-49bc-93f7-fd3c8ca06e18">
+          <AttributeID>County Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b35ebf5-0e97-4a69-b198-6cb6fd0d9224">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06737d3a-6048-4abb-91ab-2c4d3ff1a4c6">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2485929-9727-419a-aa83-88cb965b24f5">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="411ebb67-a678-4d1f-8807-a064d454e032">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b0d4e915-541c-431e-9ad8-6c414879f014">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="02d25897-4e6b-43d4-8eda-3464ac0fbef1">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8f656ac7-5835-483b-9b09-5422b8b4b1dc">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="eda01b81-6a81-44a3-97d0-9e75528e97a9">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="16c93e1c-17a0-4951-b4bb-996cd0a92d18">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d391d554-10fc-46b3-8e5f-d26121095f11">
+      <ID>County SK</ID>
+      <Name>County SK</Name>
+      <DimensionID>FACT Air Quality 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0eba1d7f-648e-4a30-b12a-4effd632c961">
+          <AttributeID>Air Data SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71052469-00d9-4a48-a400-3af9df772d38">
+          <AttributeID>Date SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9b81123e-709d-4a69-b71a-7f30c3c5ba2e">
+          <AttributeID>County SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4c83f58-b429-4ad4-a4b9-f88a3e7bef04">
+          <AttributeID>State SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="580e04ed-d5f3-4187-a907-e0c184bb8526">
+          <AttributeID>Parameter SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9507b412-99c0-4a45-8275-1803f86f353d">
+          <AttributeID>AQI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14e19d9a-78b6-4c0b-aeaf-8643f0290a2f">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7911495b-7d75-4e01-8f74-e1c0b737ae33">
+          <AttributeID>State Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b42f565a-e91d-442a-af1c-202f1f97975b">
+          <AttributeID>County Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="23492b24-f502-4884-96ef-d0f70a30badc">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b4368bb-ab75-4847-893d-aaa2d2cecce9">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70c9de02-a649-4b6f-96b0-c049f162fd0b">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04953103-17d1-45b9-991f-eac6616723cc">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="796a17bb-7871-4a90-9747-5c34183256f9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="dc3249a2-2cb3-436a-9d45-684f9ebad421">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="24ae10fa-d12d-4fd7-a802-1c2d3e3f7257">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="6b287b65-6632-486f-ac69-56653096f08d">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="3adc15cb-f9dd-441b-837f-6d30fc907116">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="e1c6747c-f061-4802-a79d-c7d1d0098b0a">
+      <ID>Parameter SK</ID>
+      <Name>Parameter SK</Name>
+      <DimensionID>FACT Air Quality 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bf87e9db-315c-45b6-9d1a-980a22794769">
+          <AttributeID>Air Data SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a54777c2-7535-4902-a888-daf681cfa152">
+          <AttributeID>Date SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e3ec7d08-d0c4-46b5-ad26-e975277805de">
+          <AttributeID>County SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b7c0033-419a-40be-8ca7-87f310dd079c">
+          <AttributeID>State SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e376c3a-a4e7-4da5-8f9b-0ab91c4dfe18">
+          <AttributeID>Parameter SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="832084ed-4bfa-470c-b3d7-89f35aeb2c2e">
+          <AttributeID>AQI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63df5e5c-8914-4a62-a297-c987b68ac774">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3df207c-f8fc-41b6-b393-ae2889fc2871">
+          <AttributeID>State Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc47694a-c1dc-41d0-b4ab-516603526ff3">
+          <AttributeID>County Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40d7c2f5-9d6d-4eec-ba10-ac4b22365dcf">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9dca5e5-92c1-4e37-8fcc-4a4f10b98df6">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6da0efe3-fc80-4039-abed-377d8a1a7241">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7457e17-ce48-4045-aca8-f5caacfd3c48">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="be4d6831-a30a-454a-9353-71b79bfb8ab1">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="0154ba8f-0ce4-4b88-9636-90a703a523cb">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="7903804c-3c98-4866-885a-49b88bda9b4a">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="a6dc5872-c842-4ec6-8d41-cc8fd4d0df21">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="867093fc-077f-4f51-a2bb-e8a1b767f3d9">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="dc7bbd04-b816-4433-9a9b-31e02dc3b698">
+      <ID>State SK</ID>
+      <Name>State SK</Name>
+      <DimensionID>FACT Air Quality 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0e4049a5-7e96-45b8-9dd6-4e8ad9a06c5f">
+          <AttributeID>Air Data SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f08dc8a-0193-474a-aa42-d9f2f01ce425">
+          <AttributeID>Date SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f06655cd-e816-4c39-b927-5e8faaa6a918">
+          <AttributeID>County SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="78d3a340-407e-42d7-a944-6ec92ab7507a">
+          <AttributeID>State SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="776ffc97-fd6f-4839-8554-4af526bba736">
+          <AttributeID>Parameter SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0421cfb7-dbde-4a28-b89c-7867e4b1b758">
+          <AttributeID>AQI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="877a9ce7-4401-4039-adab-cf04a0ce44c3">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8249a0ff-ec55-49e9-9962-cfdbfd9c968a">
+          <AttributeID>State Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="480c44e3-6f1c-4e3d-bd20-5c4c231d3fde">
+          <AttributeID>County Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b18c1961-b14a-46c4-b80c-79738f6bf8b7">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68356e55-8f7b-47a4-b83d-19dea3a12f52">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bcd1f32a-e357-4214-8978-0f5cf365749a">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a7065f3-663a-4c2b-b6f8-853dc145deb2">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c21086ef-7f45-41a6-b2a3-75653bb54882">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="f28006a4-3f91-4fed-9ec6-f9285a1149c7">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="7740d8a1-653e-41d1-b352-a83127dae197">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8c1d9059-e5c5-4fe5-9233-6a29dcbf6c6f">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="969a911b-cf6a-42da-8c99-e12b75ba2b4b">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="8911d6cb-7dc8-4f97-adbc-d8b5110071a1">
+      <ID>FACT Air Quality</ID>
+      <Name>FACT Air Quality</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e527ba2f-46ca-4dba-82b8-802496b2391a">
+          <ID>AQI</ID>
+          <Name>AQI</Name>
+          <Source dwd:design-time-name="73b3a9eb-a71c-4164-9fe7-483559fd2b1f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="86c9afc9-287a-45ab-adc4-bb0e0a370a81">
+              <TableID>dbo_FACT_AirQuality</TableID>
+              <ColumnID>AQI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3171b2b5-7bd4-4d30-96ed-52d10d9f201b">
+          <ID>Number Of Sites Reporting</ID>
+          <Name>Number Of Sites Reporting</Name>
+          <Source dwd:design-time-name="a0ef8589-4e5e-45ec-85ec-f8964e94aa74">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="59a957bc-031b-4410-a416-6601a8cecbe6">
+              <TableID>dbo_FACT_AirQuality</TableID>
+              <ColumnID>NumberOfSitesReporting</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e2d68417-cb7d-48e3-9e89-8216e5a31907">
+          <ID>FACT Air Quality Count</ID>
+          <Name>FACT Air Quality Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="d0b2887e-476e-4a06-8821-820ce070d54e">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="39627832-537b-4228-8261-5bdff6a68c15">
+              <TableID>dbo_FACT_AirQuality</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f6c369d1-36be-4d1c-ae9e-d3ced340c598">
+          <CubeDimensionID>FACT Air Quality 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fb638152-abe0-44b0-83e3-6e9302e92124">
+              <AttributeID>Air Data SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9c906eca-ed50-4bfe-ba5d-28d97d73cba4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ed64841-43f5-4f79-9bb9-0ca679d0319a">
+                    <TableID>dbo_FACT_AirQuality</TableID>
+                    <ColumnID>AirDataSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0c38e0e2-74c0-4dde-9ab0-70f45e8a1702">
+          <CubeDimensionID>Date SK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dcdb889d-7c49-4b8c-a75b-51d7740b449f">
+              <AttributeID>Air Data SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a332c3d6-348a-4bef-bc35-0a316703a43b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d809c86-6399-40f6-b390-3ac557d780f2">
+                    <TableID>dbo_FACT_AirQuality</TableID>
+                    <ColumnID>AirDataSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="59f0aa79-c357-4ae8-b1f6-dc3842df5692">
+          <CubeDimensionID>County SK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="91927f47-f9f0-40e2-aba3-535d0231076b">
+              <AttributeID>Air Data SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b6bc0377-5282-413a-be5a-6ad0197468e5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8357ffa-aeec-48c1-bbc5-879a1e780b66">
+                    <TableID>dbo_FACT_AirQuality</TableID>
+                    <ColumnID>AirDataSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d138a808-8bf9-4f1b-8fbe-337b1adca3a8">
+          <CubeDimensionID>Parameter SK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e3705e16-8070-4dad-93fe-f4c1983cbb70">
+              <AttributeID>Air Data SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9ea02980-cb2d-45d5-9bd7-a60c80095da4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9efac37a-b0ba-4612-b177-897c8c5470cd">
+                    <TableID>dbo_FACT_AirQuality</TableID>
+                    <ColumnID>AirDataSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1a66f9a3-ddad-41b2-97c7-1a63e79e2f11">
+          <CubeDimensionID>State SK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f175eec3-94f2-4666-be69-5e3e807bad8d">
+              <AttributeID>Air Data SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e971bd8b-2807-4303-a60d-48f423e94b06">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ce148215-8f40-4aa0-833b-a337b22818f3">
+                    <TableID>dbo_FACT_AirQuality</TableID>
+                    <ColumnID>AirDataSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="3080f626-2aed-4925-8f61-6cde93649083">
+    <DataSourceViewID>DDS AIR</DataSourceViewID>
+  </Source>
+</Cube>
