@@ -1,0 +1,79 @@
+WITH 
+MEMBER [Measures].[AQI Average] AS 
+    AVG(
+        FILTER(
+            [Dim States].[State Name].[State Name].MEMBERS *
+            [Dim Counties].[County Name].[County Name].MEMBERS *
+            [Dim Date].[Year].[Year].MEMBERS *
+            [Dim Date].[Quarter].[Quarter].MEMBERS,
+            NOT ISEMPTY([Measures].[AQI])
+        ), 
+        [Measures].[AQI]
+    )
+
+MEMBER [Measures].[AQI StdDev] AS
+    STDEV(
+        FILTER(
+            [Dim States].[State Name].[State Name].MEMBERS *
+            [Dim Counties].[County Name].[County Name].MEMBERS *
+            [Dim Date].[Year].[Year].MEMBERS *
+            [Dim Date].[Quarter].[Quarter].MEMBERS,
+            NOT ISEMPTY([Measures].[AQI])
+        ), 
+        [Measures].[AQI]
+    )
+
+MEMBER [Measures].[AQI Min] AS
+    MIN(
+        FILTER(
+            [Dim States].[State Name].[State Name].MEMBERS *
+            [Dim Counties].[County Name].[County Name].MEMBERS *
+            [Dim Date].[Year].[Year].MEMBERS *
+            [Dim Date].[Quarter].[Quarter].MEMBERS,
+            NOT ISEMPTY([Measures].[AQI])
+        ), 
+        [Measures].[AQI]
+    )
+
+MEMBER [Measures].[AQI Max] AS
+    MAX(
+        FILTER(
+            [Dim States].[State Name].[State Name].MEMBERS *
+            [Dim Counties].[County Name].[County Name].MEMBERS *
+            [Dim Date].[Year].[Year].MEMBERS *
+            [Dim Date].[Quarter].[Quarter].MEMBERS,
+            NOT ISEMPTY([Measures].[AQI])
+        ), 
+        [Measures].[AQI]
+    )
+
+SELECT 
+    {[Measures].[AQI Average],
+     [Measures].[AQI StdDev],
+     [Measures].[AQI Min],
+     [Measures].[AQI Max]} ON COLUMNS,
+    
+    NON EMPTY 
+    ORDER(
+        ORDER(
+            ORDER(
+                ORDER(
+                    CROSSJOIN(
+                        [Dim States].[State Name].[State Name].MEMBERS,
+                        CROSSJOIN(
+                            [Dim Counties].[County Name].[County Name].MEMBERS,
+                            CROSSJOIN(
+                                [Dim Date].[Year].[Year].MEMBERS,
+                                [Dim Date].[Quarter].[Quarter].MEMBERS
+                            )
+                        )
+                    ),
+                    [Dim States].[State Name].CurrentMember.Name, ASC
+                ),
+                [Dim Counties].[County Name].CurrentMember.Name, ASC
+            ),
+            [Dim Date].[Year].CurrentMember.Name, ASC
+        ),
+        [Dim Date].[Quarter].CurrentMember, ASC
+    ) ON ROWS
+FROM [DDS AIR 5]
