@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\DDS AIR.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|solutionrelative:OLAP3\\DDS AIR.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\OLAP6.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|solutionrelative:OLAP3\\OLAP6.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\FACT Air Quality 1.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|solutionrelative:OLAP3\\FACT Air Quality 1.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82FEAE7A-F13F-468E-ACB3-FE48213478FA}|OLAP3\\OLAP3.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\FACT Air Quality.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -47,30 +39,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DDS AIR.cube [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\DDS AIR.cube",
-              "RelativeDocumentMoniker": "OLAP3\\DDS AIR.cube",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\DDS AIR.cube [Design]",
-              "RelativeToolTip": "OLAP3\\DDS AIR.cube [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-09T19:18:26.109Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FACT Air Quality 1.dim [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\FACT Air Quality 1.dim",
-              "RelativeDocumentMoniker": "OLAP3\\FACT Air Quality 1.dim",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\FACT Air Quality 1.dim [Design]",
-              "RelativeToolTip": "OLAP3\\FACT Air Quality 1.dim [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-09T19:14:06.187Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "OLAP6.cube [Design]",
               "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\OLAP6.cube",
               "RelativeDocumentMoniker": "OLAP3\\OLAP6.cube",
@@ -82,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DIM Date.dim [Design]",
               "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\DIM Date.dim",
               "RelativeDocumentMoniker": "OLAP3\\DIM Date.dim",
@@ -94,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "OLAP3.cube [Design]",
               "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\OLAP3.cube",
               "RelativeDocumentMoniker": "OLAP3\\OLAP3.cube",
@@ -106,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "DIM States.dim [Design]",
               "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\DIM States.dim",
               "RelativeDocumentMoniker": "OLAP3\\DIM States.dim",
@@ -118,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DIM Counties.dim [Design]",
               "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\DIM Counties.dim",
               "RelativeDocumentMoniker": "OLAP3\\DIM Counties.dim",
@@ -130,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FACT Air Quality.dim [Design]",
               "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP3\\FACT Air Quality.dim",
               "RelativeDocumentMoniker": "OLAP3\\FACT Air Quality.dim",
