@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35425.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "olap08", "olap08\olap08.dwproj", "{40981127-55F8-4B6B-82C5-C4F3EF7DD7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40981127-55F8-4B6B-82C5-C4F3EF7DD7DC}.Development|Default.ActiveCfg = Development
+		{40981127-55F8-4B6B-82C5-C4F3EF7DD7DC}.Development|Default.Build.0 = Development
+		{40981127-55F8-4B6B-82C5-C4F3EF7DD7DC}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AEAF78C-BEA5-4214-A419-0C201E8C8FD2}
+	EndGlobalSection
+EndGlobal
