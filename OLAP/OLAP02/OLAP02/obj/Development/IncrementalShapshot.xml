@@ -1,8 +1,8 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
     <Database>OLAP02</Database>
-    <Server>LAPTOP-QCRR0M9L\TUONGAN0123</Server>
-    <ConnectionString>Data Source=LAPTOP-QCRR0M9L\TUONGAN0123;Timeout=0</ConnectionString>
+    <Server>MSI\TUONGAN0123</Server>
+    <ConnectionString>Data Source=MSI\TUONGAN0123;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
@@ -19,35 +19,35 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>y2+YIksjCLMNW/YPR/AXOSCXgqA=12/13/2024 3:33:19 AM12/13/2024 3:33:18 AM</TimeStamp>
+        <TimeStamp>tZzmui/+a9/AKzF/YARxos+02KI=12/14/2024 1:29:22 AM12/14/2024 1:29:22 AM</TimeStamp>
         <ID>
           <String>DDS AIR</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>weoRoR3/rLvlko/pLLxK+HVnGoE=12/13/2024 3:33:57 AM12/13/2024 3:33:57 AM</TimeStamp>
+        <TimeStamp>78lom0CwEZBMRYETTe1EAaueCm8=12/14/2024 1:29:41 AM12/14/2024 1:29:41 AM</TimeStamp>
         <ID>
           <String>DDS AIR</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xxWPF4sNeX2xlKoFXEOHhIMaKDw=12/13/2024 4:30:42 AM12/13/2024 4:29:40 AM</TimeStamp>
-        <ID>
-          <String>DIM Date</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>TBT89nd311oNYFzbpaSNczNNqV0=12/13/2024 4:30:42 AM12/13/2024 4:29:40 AM</TimeStamp>
+        <TimeStamp>LrPDY+IW4x6WMLPyaKgNVakyNYc=12/14/2024 1:31:23 AM12/14/2024 1:29:59 AM</TimeStamp>
         <ID>
           <String>DIM States</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6vDkk9ueqKCBEiqZfDak90z2Kas=12/14/2024 1:31:23 AM12/14/2024 1:29:59 AM</TimeStamp>
+        <ID>
+          <String>DIM Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>xVXPJ8JbZThgSMQKlcKYol/AuiI=12/13/2024 4:30:42 AM12/13/2024 4:29:40 AMUb5pQ10+ZbivW86ZkeVboePRYGs=12/13/2024 4:29:41 AM12/13/2024 4:29:40 AM</TimeStamp>
+        <TimeStamp>FKbhjvYIBLNJ1bJNjjvHACg6KqE=12/14/2024 1:33:15 AM12/14/2024 1:29:59 AM+N16oKybXS/KPyHrir7E5LPOlZM=12/14/2024 1:33:15 AM12/14/2024 1:29:59 AM</TimeStamp>
         <ID>
           <String>DDS AIR</String>
         </ID>
@@ -55,7 +55,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>HU1qsYOeNIDCsZCPsG/0p+aej5U=12/13/2024 2:39:08 AM12/13/2024 2:39:07 AM</TimeStamp>
+      <TimeStamp>QnasUdcajO+UaW4ZImtguBIn9MM=12/14/2024 1:28:44 AM12/14/2024 1:28:44 AM</TimeStamp>
       <ID>
         <String>OLAP02</String>
       </ID>
@@ -63,6 +63,6 @@
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
-  <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2024-12-12T21:30:45.546667Z</LastDeployed>
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-12-13T18:33:16.56Z</LastDeployed>
 </DeploymentSnapshot>

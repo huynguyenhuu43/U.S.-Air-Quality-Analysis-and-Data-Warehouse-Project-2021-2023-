@@ -1,20 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35425.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP02", "OLAP02\OLAP02.dwproj", "{3A32976F-ED72-4F94-8C9B-2960624635DB}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP02", "OLAP02\OLAP02.dwproj", "{616EA351-B216-4C16-8AB4-559EEE1B47B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A32976F-ED72-4F94-8C9B-2960624635DB}.Development|Default.ActiveCfg = Development
-		{3A32976F-ED72-4F94-8C9B-2960624635DB}.Development|Default.Build.0 = Development
-		{3A32976F-ED72-4F94-8C9B-2960624635DB}.Development|Default.Deploy.0 = Development
+		{616EA351-B216-4C16-8AB4-559EEE1B47B2}.Development|Default.ActiveCfg = Development
+		{616EA351-B216-4C16-8AB4-559EEE1B47B2}.Development|Default.Build.0 = Development
+		{616EA351-B216-4C16-8AB4-559EEE1B47B2}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE77589-DCDF-4085-8B87-F37719F536B5}
 	EndGlobalSection
 EndGlobal

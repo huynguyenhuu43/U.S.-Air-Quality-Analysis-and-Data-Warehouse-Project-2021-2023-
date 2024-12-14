@@ -3,7 +3,7 @@
     <DataSources>
       <DataSource>
         <ID>DDS AIR</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=LAPTOP-QCRR0M9L\TUONGAN0123;Integrated Security=SSPI;Initial Catalog=DDS_AIR</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=MSI\TUONGAN0123;Integrated Security=SSPI;Initial Catalog=DDS_AIR</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -12,10 +12,10 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>DIM Date</ID>
+        <ID>DIM States</ID>
       </Dimension>
       <Dimension>
-        <ID>DIM States</ID>
+        <ID>DIM Date</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
