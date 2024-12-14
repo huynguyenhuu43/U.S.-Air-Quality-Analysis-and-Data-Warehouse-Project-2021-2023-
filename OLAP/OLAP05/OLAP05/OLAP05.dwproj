@@ -20,12 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DIM Date.dim</Name>
-      <FullPath>DIM Date.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DIM States.dim</Name>
       <FullPath>DIM States.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Date.dim</Name>
+      <FullPath>DIM Date.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -48,7 +48,7 @@
           <ConfigurationSetting>
             <Id>DDS AIR</Id>
             <Name>DDS AIR</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-QCRR0M9L\TUONGAN0123;Integrated Security=SSPI;Initial Catalog=DDS_AIR</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=MSI\TUONGAN0123;Integrated Security=SSPI;Initial Catalog=DDS_AIR</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

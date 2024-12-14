@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>LAPTOP-QCRR0M9L\TUONGAN0123</TargetServer>
+        <TargetServer>MSI\TUONGAN0123</TargetServer>
         <TargetDatabase>OLAP05</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
