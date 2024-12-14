@@ -1,0 +1,50 @@
+WITH 
+MEMBER [Measures].[AQI Mean] AS 
+    AVG(
+        FILTER(
+            CROSSJOIN(
+                [DIM States].[State Name].[State Name].MEMBERS,
+                CROSSJOIN(
+                    [DIM Date].[Year].[Year].MEMBERS,
+                    [DIM Date].[Quarter].[Quarter].MEMBERS
+                )
+            ), 
+            NOT ISEMPTY([Measures].[AQI])
+        ),
+        [Measures].[AQI]
+    )
+MEMBER [Measures].[AQI StdDev] AS 
+    STDEV(
+        FILTER(
+            CROSSJOIN(
+                [DIM States].[State Name].[State Name].MEMBERS,
+                CROSSJOIN(
+                    [DIM Date].[Year].[Year].MEMBERS,
+                    [DIM Date].[Quarter].[Quarter].MEMBERS
+                )
+            ),
+            NOT ISEMPTY([Measures].[AQI])
+        ), 
+        [Measures].[AQI]
+    )
+SELECT 
+    {[Measures].[AQI Mean], [Measures].[AQI StdDev]} ON COLUMNS,
+    
+    NON EMPTY 
+    ORDER(
+        ORDER(
+            ORDER(
+                CROSSJOIN(
+                    [DIM States].[State Name].[State Name].MEMBERS,
+                    CROSSJOIN(
+                        [DIM Date].[Year].[Year].MEMBERS,
+                        [DIM Date].[Quarter].[Quarter].MEMBERS
+                    )
+                ),
+                [DIM States].[State Name].CurrentMember.Name, ASC
+            ),
+            [DIM Date].[Year].CurrentMember.Name, ASC
+        ),
+        [DIM Date].[Quarter].CurrentMember, ASC
+    ) ON ROWS
+FROM [DDS AIR]
