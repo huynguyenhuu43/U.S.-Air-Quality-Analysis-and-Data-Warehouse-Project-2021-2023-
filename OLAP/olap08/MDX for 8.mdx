@@ -12,7 +12,10 @@ CROSSJOIN(
     [DIM States.Hierarchy].[State Name].MEMBERS,
     CROSSJOIN(
         [FACT Air Quality.Hierarchy].[Category].MEMBERS,
-        [DIM Date.Hierarchy 1].[Day Light Saving].MEMBERS
+        CROSSJOIN(
+            [DIM Date.Hierarchy].[Year].MEMBERS,
+            [DIM Date.Hierarchy 1].[Day Light Saving].MEMBERS
+        )
     )
 ) ON ROWS
 
