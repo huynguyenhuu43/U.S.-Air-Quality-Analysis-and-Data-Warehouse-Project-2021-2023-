@@ -1,0 +1,22 @@
+WITH 
+MEMBER [Measures].[Avg AQI] AS
+    AVG([Measures].[AQI])
+
+SELECT 
+{
+    [Measures].[Avg AQI]
+} ON COLUMNS,
+
+NON EMPTY
+CROSSJOIN(
+    [DIM States.Hierarchy].[State Name].MEMBERS,
+    CROSSJOIN(
+        [FACT Air Quality.Hierarchy].[Category].MEMBERS,
+        CROSSJOIN(
+            [DIM Date.Hierarchy].[Year].MEMBERS,
+            [DIM Date.Hierarchy 1].[Day Light Saving].MEMBERS
+        )
+    )
+) ON ROWS
+
+FROM [DDS AIR 5]
