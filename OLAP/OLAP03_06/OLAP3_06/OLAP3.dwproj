@@ -27,16 +27,6 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
-    <ProjectItem>
-      <Name>DDS AIR.cube</Name>
-      <FullPath>DDS AIR.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>DDS AIR.partitions</Name>
-          <FullPath>DDS AIR.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>

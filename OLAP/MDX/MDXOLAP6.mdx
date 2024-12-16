@@ -1,4 +1,6 @@
-﻿WITH 
+﻿--6. Thiết kế một báo cáo để thể hiện xu hướng biến động của AQI trong năm cho bốn bang: Hawaii, Alabama, Utah, và Georgia.
+
+WITH 
 MEMBER [Measures].[MeanAQI] AS
     AVG(
         EXISTING [Dim Date].[Date].[Date].MEMBERS, 
@@ -20,6 +22,6 @@ SELECT
     [Dim States].[State Name].&[Utah],
     [Dim States].[State Name].&[Georgia]
   } ON COLUMNS
-FROM [OLAP6]
+FROM [OLAP10]
 WHERE 
   ([Measures].[MeanAQI])

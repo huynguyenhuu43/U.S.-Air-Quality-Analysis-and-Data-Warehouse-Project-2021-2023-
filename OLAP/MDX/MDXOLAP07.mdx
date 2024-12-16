@@ -1,0 +1,39 @@
+﻿-- Báo cáo trung bình, độ lệch chuẩn, giá trị nhỏ nhất (min) và giá trị lớn nhất (max) của chỉ số AQI,
+-- nhóm theo Bang và Quận trong mỗi quý của năm. (bonus)
+WITH 
+MEMBER [Measures].[MeanAQI] AS 
+    AVG(
+        [Dim Date].[Quarter].CurrentMember,
+        [Measures].[AQI]
+    )
+MEMBER [Measures].[StdDevAQI] AS 
+    STDEV(
+        [Dim Date].[Quarter].CurrentMember,
+        [Measures].[AQI]
+    )
+MEMBER [Measures].[MinAQI] AS 
+    MIN(
+        [Dim Date].[Quarter].CurrentMember,
+        [Measures].[AQI]
+    )
+MEMBER [Measures].[MaxAQI] AS 
+    MAX(
+        [Dim Date].[Quarter].CurrentMember,
+        [Measures].[AQI]
+    )
+
+SELECT 
+{
+    [Measures].[MeanAQI],
+    [Measures].[StdDevAQI],
+    [Measures].[MinAQI],
+    [Measures].[MaxAQI]
+} ON COLUMNS,
+NON EMPTY
+    [DIM States].[State Name].MEMBERS
+    *
+    [Dim Counties].[County Name].MEMBERS
+    *
+    [Dim Date].[Quarter].MEMBERS
+ON ROWS
+FROM [OLAP10]

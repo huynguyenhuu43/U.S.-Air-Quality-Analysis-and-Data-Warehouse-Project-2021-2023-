@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C979774C-6C0E-40BE-9EDA-C9277D477C99}|OLAP07\\OLAP07.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\OLAP07\\DDS AIR 5.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C979774C-6C0E-40BE-9EDA-C9277D477C99}|OLAP07\\OLAP07.dwproj|solutionrelative:OLAP07\\DDS AIR 5.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C979774C-6C0E-40BE-9EDA-C9277D477C99}|OLAP07\\OLAP07.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\OLAP07\\DDS AIR 5.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C979774C-6C0E-40BE-9EDA-C9277D477C99}|OLAP07\\OLAP07.dwproj|solutionrelative:OLAP07\\DDS AIR 5.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7cc9e714-2774-4fc6-8631-a07eee703286}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DDS AIR 5.dsv [Design]",
+              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\OLAP07\\DDS AIR 5.dsv",
+              "RelativeDocumentMoniker": "OLAP07\\DDS AIR 5.dsv",
+              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\OLAP07\\DDS AIR 5.dsv [Design]",
+              "RelativeToolTip": "OLAP07\\DDS AIR 5.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T20:01:13.8Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DDS AIR 5.cube [Design]",
+              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\OLAP07\\DDS AIR 5.cube",
+              "RelativeDocumentMoniker": "OLAP07\\DDS AIR 5.cube",
+              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP07\\OLAP07\\DDS AIR 5.cube [Design]",
+              "RelativeToolTip": "OLAP07\\DDS AIR 5.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T19:59:47.374Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
