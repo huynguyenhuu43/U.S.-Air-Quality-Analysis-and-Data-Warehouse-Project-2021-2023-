@@ -1,19 +1,8 @@
 WITH 
 MEMBER [Measures].[AQI Mean] AS 
     AVG(
-        FILTER(
-            CROSSJOIN(
-                {
-                    [DIM States].[State Name].[State Name].[Hawaii],
-                    [DIM States].[State Name].[State Name].[Alaska],
-                    [DIM States].[State Name].[State Name].[Illinois],
-                    [DIM States].[State Name].[State Name].[Delaware]
-                },
-                [DIM Date].[Quarter].[Quarter].MEMBERS
-            ), 
-            NOT ISEMPTY([Measures].[AQI])
-        ),
-        [Measures].[AQI]
+        EXISTING [Dim Date].[Date].[Date].MEMBERS, 
+        [Measures].[AQI] 
     )
 
 SELECT 
@@ -30,6 +19,6 @@ SELECT
             },
             [DIM Date].[Quarter].[Quarter].MEMBERS
         ),
-        [DIM States].[State Name].CurrentMember.Name, ASC
+        [DIM States].[State Name].Name, ASC
     ) ON ROWS
 FROM [DDS AIR]
