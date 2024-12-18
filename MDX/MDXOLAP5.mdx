@@ -1,0 +1,28 @@
+-- 5 For the four following states: Hawaii, Alabama, Illinois and Delaware, compute the mean AQI value by quarters.
+WITH 
+MEMBER [Measures].[AQI Mean] AS
+    AVG(
+		CROSSJOIN (
+			EXISTING [Dim Date].[Hierarchy].[Date], 
+			EXISTING [DIM Counties].[Hierarchy 1].[County Name]
+		),
+		[Measures].[Mean AQI]
+    )
+
+SELECT 
+    {[Measures].[AQI Mean]} ON COLUMNS,
+    
+    NON EMPTY 
+    ORDER(
+        CROSSJOIN(
+            {
+                [DIM States].[State Name].[State Name].[Hawaii],
+                [DIM States].[State Name].[State Name].[Alabama],
+                [DIM States].[State Name].[State Name].[Illinois],
+                [DIM States].[State Name].[State Name].[Delaware]
+            },
+            [DIM Date].[Quarter].[Quarter].MEMBERS
+        ),
+        [DIM States].[State Name].Name, ASC
+    ) ON ROWS
+FROM [DDS AIR]

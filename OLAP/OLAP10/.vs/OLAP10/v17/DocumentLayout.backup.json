@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\FACT Air Quality.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|solutionrelative:OLAP10\\FACT Air Quality.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM States.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|solutionrelative:OLAP10\\DIM States.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Parameter.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|solutionrelative:OLAP10\\DIM Parameter.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Counties.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|solutionrelative:OLAP10\\DIM Counties.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|solutionrelative:OLAP10\\DIM Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\OLAP10.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{D06B56E1-6A89-4D21-8E8F-1604C8850820}|OLAP10\\OLAP10.dwproj|solutionrelative:OLAP10\\OLAP10.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
@@ -34,83 +14,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{7cc9e714-2774-4fc6-8631-a07eee703286}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OLAP10.cube [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\OLAP10.cube",
-              "RelativeDocumentMoniker": "OLAP10\\OLAP10.cube",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\OLAP10.cube [Design]",
-              "RelativeToolTip": "OLAP10\\OLAP10.cube [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-15T15:26:09.36Z",
-              "EditorCaption": " [Design]"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FACT Air Quality.dim [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\FACT Air Quality.dim",
-              "RelativeDocumentMoniker": "OLAP10\\FACT Air Quality.dim",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\FACT Air Quality.dim [Design]",
-              "RelativeToolTip": "OLAP10\\FACT Air Quality.dim [Design]",
+              "Title": "OLAP10.cube ",
+              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\OLAP10.cube",
+              "RelativeDocumentMoniker": "OLAP10\\OLAP10.cube",
+              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\OLAP10.cube",
+              "RelativeToolTip": "OLAP10\\OLAP10.cube",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-15T15:25:39.2Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-16T20:40:57.84Z",
+              "EditorCaption": " "
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DIM States.dim [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM States.dim",
-              "RelativeDocumentMoniker": "OLAP10\\DIM States.dim",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM States.dim [Design]",
-              "RelativeToolTip": "OLAP10\\DIM States.dim [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-15T15:25:25.809Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DIM Parameter.dim [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Parameter.dim",
-              "RelativeDocumentMoniker": "OLAP10\\DIM Parameter.dim",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Parameter.dim [Design]",
-              "RelativeToolTip": "OLAP10\\DIM Parameter.dim [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-15T15:25:14.858Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DIM Counties.dim [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Counties.dim",
-              "RelativeDocumentMoniker": "OLAP10\\DIM Counties.dim",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Counties.dim [Design]",
-              "RelativeToolTip": "OLAP10\\DIM Counties.dim [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-15T15:23:51.603Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DIM Date.dim [Design]",
-              "DocumentMoniker": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Date.dim",
-              "RelativeDocumentMoniker": "OLAP10\\DIM Date.dim",
-              "ToolTip": "D:\\lolo\\lo hc\\BI\\-HCMUS-BI2425\\OLAP\\OLAP10\\OLAP10\\DIM Date.dim [Design]",
-              "RelativeToolTip": "OLAP10\\DIM Date.dim [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-15T15:21:31.38Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7cc9e714-2774-4fc6-8631-a07eee703286}"
             }
           ]
         }

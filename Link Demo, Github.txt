@@ -1,7 +1,9 @@
-Báo cáo từ Github:
+Báo cáo từ Github: 
 Link: https://github.com/Locung201/BI2425
+
 Youtube Demo:
 1. Source -> Stage -> NDS: https://www.youtube.com/watch?v=hoX4RLBOON0
 2. NDS -> DDS: https://youtu.be/HdpkzpeXC-c
 3. OLAP : https://drive.google.com/drive/folders/1DX5nIt82hp0_mkCbrZhPVJydDMM40xQx?fbclid=IwZXh0bgNhZW0CMTEAAR3rUeQ3ce6AzhuPvDod-xYZy-ex9r67f3_q2t77XmwVdnGcKyPVy8oU4i8_aem_k8_gvZt44OiSUCsP9WSwFw
-4. MDX, reporting: https://youtu.be/5bI2mZ7iKgQ
+4.1 - MDX, reporting: https://youtu.be/5bI2mZ7iKgQ
+4.2 - MDX: https://drive.google.com/drive/folders/19x3nYL4jGLgutZjms-0_-Nx3p_pkaqvM?usp=sharing

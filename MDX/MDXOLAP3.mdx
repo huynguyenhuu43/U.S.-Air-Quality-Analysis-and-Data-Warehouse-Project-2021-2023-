@@ -1,0 +1,43 @@
+﻿-- 3.Report the number of days, and the mean AQI value where the air quality is rated
+-- as "very unhealthy" or worse for each State and County.
+
+WITH 
+MEMBER [Measures].[Number Of Days] AS
+    COUNT(
+        FILTER(
+            [Dim Date].[Date].[Date].MEMBERS,
+            (
+                [FACT Air Quality].[Category].CURRENTMEMBER IS [Category].[Very Unhealthy] 
+                OR [FACT Air Quality].[Category].CURRENTMEMBER IS [Category].[Hazardous]
+            )
+            AND [Measures].[AQI] > 0
+        )
+    )
+
+MEMBER [Measures].[AQI Mean] AS
+    AVG(
+		CROSSJOIN (
+			EXISTING [Dim Date].[Hierarchy].[Date], 
+			EXISTING [DIM Counties].[Hierarchy 1].[County Name]
+		),
+		[Measures].[Mean AQI]
+    )
+
+SELECT 
+  {[Measures].[Number Of Days], [Measures].[AQI Mean]} ON COLUMNS,
+  NON EMPTY 
+  ORDER(
+    FILTER(
+      CROSSJOIN(
+        {[Dim States].[State Name].[State Name].MEMBERS},
+        CROSSJOIN(
+          [Dim Counties].[County Name].[County Name].MEMBERS,
+          {[FACT Air Quality].[Category].&[Very Unhealthy],
+		  [FACT Air Quality].[Category].&[Hazardous]}
+        )
+      ),
+      [Measures].[Number of Days] > 0
+    ),
+    [Measures].[Number of Days], DESC
+  ) ON ROWS
+FROM [OLAP10]

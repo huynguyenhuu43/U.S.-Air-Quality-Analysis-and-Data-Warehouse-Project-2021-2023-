@@ -1,0 +1,22 @@
+-- 11. Count the number of days by State, Category in each month.
+
+WITH 
+MEMBER [Measures].[NumberOfDays] AS
+    COUNT(
+        FILTER(
+            [Dim Date].[Date].[Date].MEMBERS, 
+            [Measures].[Mean AQI] > 0
+        )
+    )
+
+SELECT 
+    NON EMPTY 
+    CROSSJOIN(
+        [Dim Date].[Month].[Month].MEMBERS, 
+        CROSSJOIN(
+            [DIM States].[State Name].[State Name].MEMBERS, 
+            [FACT Air Quality].[Category].[Category].MEMBERS
+        )
+    ) ON ROWS,
+    {[Measures].[NumberOfDays]} ON COLUMNS
+FROM [OLAP10]

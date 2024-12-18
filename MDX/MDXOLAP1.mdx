@@ -1,0 +1,10 @@
+-- 1. Report the min and max of AQI value for each State during each quarter of years.
+SELECT 
+    {[Measures].[Maximum AQI], [Measures].[Minimum AQI]} ON COLUMNS,
+    NON EMPTY 
+    CROSSJOIN(
+        [DIM States].[State Name].[State Name].MEMBERS,
+        [DIM Date].[Year].[Year].MEMBERS *
+        [DIM Date].[Quarter].[Quarter].MEMBERS
+    ) ON ROWS
+FROM [OLAP10]

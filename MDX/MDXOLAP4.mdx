@@ -1,0 +1,26 @@
+-- 4. For the four following states: Hawaii, Arizona, Illinois and Delaware, count the
+-- number of days in each air quality Category (Good, Moderate,etc.) by County.
+WITH 
+MEMBER [Measures].[Number of Days] AS
+  DISTINCTCOUNT([Dim Date].[Date].[Date])
+
+SELECT 
+  {[Measures].[Number of Days]} ON COLUMNS,
+  NON EMPTY 
+  ORDER(
+    FILTER(
+      CROSSJOIN(
+        {[Dim States].[State Name].&[Hawaii],
+         [Dim States].[State Name].&[Arizona],
+         [Dim States].[State Name].&[Illinois], 
+         [Dim States].[State Name].&[Delaware]},
+        CROSSJOIN(
+          [Dim Counties].[County Name].[County Name].MEMBERS,
+          [FACT Air Quality].[Category].MEMBERS
+        )
+      ),
+      [Measures].[Number of Days] > 0
+    ),
+    [Measures].[Number of Days], DESC
+  ) ON ROWS
+FROM [DDS AIR 5]

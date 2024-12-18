@@ -1,0 +1,26 @@
+-- 8. Use a regional map to visually represent (by color) the mean AQI value in regions
+-- during a year.
+WITH 
+MEMBER [Measures].[MeanAQI] AS
+    AVG(
+		CROSSJOIN (
+			EXISTING [Dim Date].[Hierarchy].[Date], 
+			EXISTING [DIM Counties].[Hierarchy 1].[County Name]
+		),
+		[Measures].[Mean AQI]
+    )
+SELECT 
+  ORDER(
+      NONEMPTY(
+          [Dim Date].[Year].[Year] * [Dim Date].[Month].[Month], 
+          [Measures].[MeanAQI]
+      ),
+      [Dim Date].[Month].CURRENTMEMBER.MEMBER_KEY, ASC 
+  ) ON ROWS,
+  NON EMPTY 
+  {
+    [DIM States].[State Name].[State Name]
+  } ON COLUMNS
+FROM [OLAP10]
+WHERE 
+  ([Measures].[MeanAQI])

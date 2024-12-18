@@ -1,0 +1,30 @@
+-- 2 Report the mean and the standard deviation of AQI value for each State during each quarter of years.
+
+WITH 
+MEMBER [Measures].[AQI Mean] AS
+    AVG(
+		CROSSJOIN (
+			EXISTING [Dim Date].[Hierarchy].[Date], 
+			EXISTING [DIM Counties].[Hierarchy 1].[County Name]
+		),
+		[Measures].[Mean AQI]
+    )
+
+MEMBER [Measures].[AQI StdDev] AS 
+    STDEV(
+        FILTER(
+            [DIM Date].[Date].[Date].MEMBERS,
+            NOT ISEMPTY([Measures].[AQI])
+        ),
+        [Measures].[Mean AQI]
+    )
+SELECT 
+    {[Measures].[AQI Mean], [Measures].[AQI StdDev]} ON COLUMNS,
+    NON EMPTY 
+    CROSSJOIN(
+        [DIM States].[State Name].[State Name].MEMBERS,
+        [DIM Date].[Year].[Year].MEMBERS *
+        [DIM Date].[Quarter].[Quarter].MEMBERS
+    ) ON ROWS
+
+FROM [DDS AIR]

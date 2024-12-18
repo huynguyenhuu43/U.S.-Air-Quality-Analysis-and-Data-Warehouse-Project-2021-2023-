@@ -1,0 +1,35 @@
+﻿-- 9. Report the mean, the standard deviation, min and max of AQI value group by
+-- State and County during each quarter of the year.
+WITH 
+MEMBER [Measures].[MeanAQI] AS
+    AVG(
+		CROSSJOIN (
+			EXISTING [Dim Date].[Hierarchy].[Date], 
+			EXISTING [DIM Counties].[Hierarchy 1].[County Name]
+		),
+		[Measures].[Mean AQI]
+    )
+
+MEMBER [Measures].[AQI StdDev] AS 
+    STDEV(
+		CROSSJOIN (
+			EXISTING [Dim Date].[Hierarchy].[Date], 
+			EXISTING [DIM Counties].[Hierarchy 1].[County Name]
+		),
+		[Measures].[Mean AQI]
+    )
+SELECT 
+{
+    [Measures].[MeanAQI],
+    [Measures].[AQI StdDev],
+    [Measures].[Minimum AQI],
+    [Measures].[Maximum AQI]
+} ON COLUMNS,
+NON EMPTY 
+    CROSSJOIN(
+        [DIM Counties - State SK].[State Name].[State Name].MEMBERS, 
+        [DIM Counties].[County Name].[County Name].MEMBERS,
+        [Dim Date].[Year].[Year].MEMBERS,
+        [Dim Date].[Quarter].[Quarter].MEMBERS
+    ) ON ROWS
+FROM [OLAP10]
