@@ -21,7 +21,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2957" scrolltop="-4032" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="11091" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2957" scrolltop="-3154" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="9335" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                 </font>
@@ -64,7 +64,7 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-4032</Value>
+          <Value>-3154</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -156,7 +156,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2957" scrolltop="-4032" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="11091" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2870" scrolltop="-2974" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="9335" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                 </font>
@@ -167,9 +167,9 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Date" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Date" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000670c00003b0d0000" />
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
@@ -195,11 +195,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-2957</Value>
+          <Value>-2870</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-4032</Value>
+          <Value>-2974</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -219,6 +219,7 @@
       <Source xsi:type="DataSourceViewBinding">
         <DataSourceViewID>DDS AIR</DataSourceViewID>
       </Source>
+      <Type>Time</Type>
       <ErrorConfiguration>
         <KeyNotFound>ReportAndStop</KeyNotFound>
         <KeyDuplicate>ReportAndStop</KeyDuplicate>
@@ -241,20 +242,20 @@
           </KeyColumns>
           <AttributeRelationships>
             <AttributeRelationship>
-              <AttributeID>Quarter</AttributeID>
-              <Name>Quarter</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Year</AttributeID>
-              <Name>Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Day</AttributeID>
               <Name>Day</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Month</AttributeID>
               <Name>Month</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Quarter</AttributeID>
+              <Name>Quarter</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Year</AttributeID>
+              <Name>Year</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Date</AttributeID>
@@ -266,38 +267,9 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Quarter</ID>
-          <Name>Quarter</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>dbo_DIM_Date</TableID>
-                <ColumnID>Quarter</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Year</ID>
-          <Name>Year</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>dbo_DIM_Date</TableID>
-                <ColumnID>Year</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
           <ID>Day</ID>
           <Name>Day</Name>
+          <Type>DayOfMonth</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -313,6 +285,7 @@
         <Attribute>
           <ID>Month</ID>
           <Name>Month</Name>
+          <Type>MonthOfYear</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Integer</DataType>
@@ -326,8 +299,42 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
+          <ID>Quarter</ID>
+          <Name>Quarter</Name>
+          <Type>QuarterOfYear</Type>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DIM_Date</TableID>
+                <ColumnID>Quarter</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <Type>Years</Type>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DIM_Date</TableID>
+                <ColumnID>Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <MembersWithData>NonLeafDataHidden</MembersWithData>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
           <ID>Date</ID>
           <Name>Date</Name>
+          <Type>Date</Type>
           <KeyColumns>
             <KeyColumn>
               <DataType>Date</DataType>
@@ -376,6 +383,178 @@
       </Hierarchies>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
+    <Dimension>
+      <ID>DIM Counties</ID>
+      <Name>DIM Counties</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2957" scrolltop="-2434" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="9335" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Counties" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000072110000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DIM_Counties" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-2957</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-2434</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>DDS AIR</DataSourceViewID>
+      </Source>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>County SK</ID>
+          <Name>County SK</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DIM_Counties</TableID>
+                <ColumnID>CountySK</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>State SK</AttributeID>
+              <Name>State SK</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>County Name</AttributeID>
+              <Name>County Name</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>State SK</ID>
+          <Name>State SK</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DIM_Counties</TableID>
+                <ColumnID>StateSK</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>County Name</ID>
+          <Name>County Name</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DIM_Counties</TableID>
+                <ColumnID>CountyName</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy>
+          <ID>Hierarchy</ID>
+          <Name>Hierarchy</Name>
+          <Levels>
+            <Level>
+              <ID>State SK</ID>
+              <Name>State SK</Name>
+              <SourceAttributeID>State SK</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>County SK</ID>
+              <Name>County SK</Name>
+              <SourceAttributeID>County SK</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+        <Hierarchy>
+          <ID>Hierarchy 1</ID>
+          <Name>Hierarchy 1</Name>
+          <Levels>
+            <Level>
+              <ID>County Name</ID>
+              <Name>County Name</Name>
+              <SourceAttributeID>County Name</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+      </Hierarchies>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
   </Dimensions>
   <Cubes>
     <Cube>
@@ -388,7 +567,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6910" scrolltop="-30" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24130" y="11091" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10858" scrolltop="703" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24130" y="9335" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                 </font>
@@ -399,7 +578,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_States" left="6844" top="899" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_States" left="6844" top="6866" logicalid="9" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
                 </control>
@@ -410,9 +589,9 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Date" left="732" top="7226" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Date" left="644" top="9759" logicalid="10" controlid="2" masterid="0" hint1="0" hint2="0" width="3175" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000670c00003b0d0000" />
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
@@ -421,7 +600,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_AirQuality" left="20" top="0" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4424" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_AirQuality" left="20" top="2533" logicalid="11" controlid="3" masterid="0" hint1="0" hint2="0" width="4424" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e000048110000da120000" />
                 </control>
@@ -432,7 +611,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="4144" top="2013" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="4144" top="5196" logicalid="13" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="3583" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -445,14 +624,14 @@
                     <property name="VisibleAP" value="0" vartype="3" />
                   </ddsxmlobj>
                 </layoutobject>
-                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                  <point x="6844" y="2412" />
-                  <point x="5644" y="2412" />
-                  <point x="5644" y="2413" />
-                  <point x="4444" y="2413" />
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="6844" y="8379" />
+                  <point x="5644" y="8379" />
+                  <point x="5644" y="5496" />
+                  <point x="4444" y="5496" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="1833" top="4526" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="1832" top="7059" logicalid="15" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -466,8 +645,10 @@
                   </ddsxmlobj>
                 </layoutobject>
                 <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                  <point x="2232" y="7226" />
-                  <point x="2232" y="4826" />
+                  <point x="2231" y="9759" />
+                  <point x="2231" y="8559" />
+                  <point x="2232" y="8559" />
+                  <point x="2232" y="7359" />
                 </connector>
               </ddscontrol>
             </dds>
@@ -487,11 +668,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-6910</Value>
+          <Value>-10858</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-30</Value>
+          <Value>703</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -499,11 +680,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
+          <Value>2533</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-          <Value>100</Value>
+          <Value>75</Value>
         </Annotation>
       </Annotations>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
@@ -536,19 +717,61 @@
               <AttributeID>Date SK</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Quarter</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Year</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Day</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Month</AttributeID>
             </Attribute>
             <Attribute>
+              <AttributeID>Quarter</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Year</AttributeID>
+            </Attribute>
+            <Attribute>
               <AttributeID>Date</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy>
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension>
+          <ID>DIM Counties</ID>
+          <Name>DIM Counties</Name>
+          <DimensionID>DIM Counties</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>County SK</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>State SK</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>County Name</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy>
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension>
+          <ID>DIM Counties - State SK</ID>
+          <Name>DIM Counties - State SK</Name>
+          <DimensionID>DIM States</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>State SK</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>State Name</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -579,21 +802,9 @@
               </Source>
             </Measure>
             <Measure>
-              <ID>Minimum AQI</ID>
-              <Name>Minimum AQI</Name>
-              <AggregateFunction>Min</AggregateFunction>
-              <Source>
-                <DataType>Integer</DataType>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>dbo_FACT_AirQuality</TableID>
-                  <ColumnID>AQI</ColumnID>
-                </Source>
-              </Source>
-            </Measure>
-            <Measure>
-              <ID>Maximum AQI</ID>
-              <Name>Maximum AQI</Name>
-              <AggregateFunction>Max</AggregateFunction>
+              <ID>AQI - FACT Air Quality</ID>
+              <Name>Mean AQI</Name>
+              <AggregateFunction>AverageOfChildren</AggregateFunction>
               <Source>
                 <DataType>Integer</DataType>
                 <Source xsi:type="ColumnBinding">
@@ -641,6 +852,37 @@
                   <Type>Granularity</Type>
                 </Attribute>
               </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>DIM Counties</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>County SK</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_FACT_AirQuality</TableID>
+                        <ColumnID>CountySK</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="ReferenceMeasureGroupDimension">
+              <CubeDimensionID>DIM Counties - State SK</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>State SK</AttributeID>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+              <IntermediateCubeDimensionID>DIM Counties</IntermediateCubeDimensionID>
+              <IntermediateGranularityAttributeID>State SK</IntermediateGranularityAttributeID>
+              <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
             </Dimension>
           </Dimensions>
           <Partitions>
@@ -726,65 +968,100 @@
       <DataSourceID>DDS AIR</DataSourceID>
       <Schema>
         <xs:schema id="DDS_x0020_AIR" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-          <xs:element name="DDS_x0020_AIR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="528e7a18-477d-406f-8452-6aed145e2c5a">
+          <xs:element name="DDS_x0020_AIR" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="83ad31f2-b2ba-4291-9d35-019ed0ecd624">
             <xs:complexType>
               <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element name="dbo_FACT_AirQuality" msprop:design-time-name="16c4857e-e7db-45bf-aeba-f6f0898e1964" msprop:FriendlyName="FACT_AirQuality" msprop:DbSchemaName="dbo" msprop:DbTableName="FACT_AirQuality" msprop:TableType="Table">
+                <xs:element name="dbo_FACT_AirQuality" msprop:design-time-name="0dbd7a6b-f8a8-4813-874a-9d79511af319" msprop:FriendlyName="FACT_AirQuality" msprop:DbSchemaName="dbo" msprop:DbTableName="FACT_AirQuality" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="AirDataSK" msprop:design-time-name="2d0721d3-ff7e-4f53-a585-5b60e603d06e" msprop:DbColumnName="AirDataSK" msprop:FriendlyName="AirDataSK" type="xs:int" />
-                      <xs:element name="DateSK" msprop:design-time-name="a48791a1-b1d5-4585-a28a-4bde370302e5" msprop:DbColumnName="DateSK" msprop:FriendlyName="DateSK" type="xs:int" />
-                      <xs:element name="StateSK" msprop:design-time-name="22a90308-d9a2-4f10-b600-59863db1b0af" msprop:DbColumnName="StateSK" msprop:FriendlyName="StateSK" type="xs:int" />
-                      <xs:element name="CountySK" msprop:design-time-name="b05c6e8b-ea19-4742-834f-63b4f340918f" msprop:DbColumnName="CountySK" msprop:FriendlyName="CountySK" type="xs:int" />
-                      <xs:element name="ParameterSK" msprop:design-time-name="078b354d-ec12-41e3-ad51-395ec1e7a2a8" msprop:DbColumnName="ParameterSK" msprop:FriendlyName="ParameterSK" type="xs:int" />
-                      <xs:element name="AQI" msprop:design-time-name="e45ac1e4-4364-4fae-90fc-d13bac1d6f80" msprop:DbColumnName="AQI" msprop:FriendlyName="AQI" type="xs:int" minOccurs="0" />
-                      <xs:element name="Category" msprop:design-time-name="0a7a4efe-affa-4755-8284-178a12908f38" msprop:DbColumnName="Category" msprop:FriendlyName="Category" minOccurs="0">
+                      <xs:element name="AirDataSK" msprop:design-time-name="1452732d-1155-4a32-a2ba-cff8e1a9651a" msprop:DbColumnName="AirDataSK" msprop:FriendlyName="AirDataSK" type="xs:int" />
+                      <xs:element name="DateSK" msprop:design-time-name="d99a03c0-44d4-4e33-9af1-a368dfae02ac" msprop:DbColumnName="DateSK" msprop:FriendlyName="DateSK" type="xs:int" />
+                      <xs:element name="StateSK" msprop:design-time-name="c5ea7bdc-da97-4ccb-a444-a84c453d0d56" msprop:DbColumnName="StateSK" msprop:FriendlyName="StateSK" type="xs:int" />
+                      <xs:element name="CountySK" msprop:design-time-name="037ea545-8dd3-4fb7-b964-5e5b9d8f3130" msprop:DbColumnName="CountySK" msprop:FriendlyName="CountySK" type="xs:int" />
+                      <xs:element name="ParameterSK" msprop:design-time-name="98f6dfb6-b21b-4c89-911b-7080aa3236d4" msprop:DbColumnName="ParameterSK" msprop:FriendlyName="ParameterSK" type="xs:int" />
+                      <xs:element name="AQI" msprop:design-time-name="f949bccc-648e-4998-becb-878da63af855" msprop:DbColumnName="AQI" msprop:FriendlyName="AQI" type="xs:int" minOccurs="0" />
+                      <xs:element name="Category" msprop:design-time-name="8c74fb83-fa37-45f6-b8b5-b71a175d2178" msprop:DbColumnName="Category" msprop:FriendlyName="Category" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="DefiningSite" msprop:design-time-name="c7944b6e-ab68-4a1e-bcc7-d287daf43480" msprop:DbColumnName="DefiningSite" msprop:FriendlyName="DefiningSite" minOccurs="0">
+                      <xs:element name="DefiningSite" msprop:design-time-name="dd6a3678-50f4-41ef-9587-4ea6d2c97e23" msprop:DbColumnName="DefiningSite" msprop:FriendlyName="DefiningSite" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="NumberOfSitesReporting" msprop:design-time-name="93d10ccf-03ff-4fd9-b776-0e5cb5673fbc" msprop:DbColumnName="NumberOfSitesReporting" msprop:FriendlyName="NumberOfSitesReporting" type="xs:int" minOccurs="0" />
-                      <xs:element name="Created" msprop:design-time-name="a526d4b5-2b3c-4ecc-bb4e-a3a63b456c6b" msprop:DbColumnName="Created" msprop:FriendlyName="Created" type="xs:dateTime" minOccurs="0" />
-                      <xs:element name="LastUpdated" msprop:design-time-name="e45d937b-53c4-4c3f-be1f-8445ee16c21e" msprop:DbColumnName="LastUpdated" msprop:FriendlyName="LastUpdated" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="NumberOfSitesReporting" msprop:design-time-name="77761276-c1b8-44a7-a60b-ac897c099c8d" msprop:DbColumnName="NumberOfSitesReporting" msprop:FriendlyName="NumberOfSitesReporting" type="xs:int" minOccurs="0" />
+                      <xs:element name="Created" msprop:design-time-name="0404cdea-15c4-4011-87cb-686b870d1968" msprop:DbColumnName="Created" msprop:FriendlyName="Created" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="LastUpdated" msprop:design-time-name="ac660e4a-2d7d-4ae3-a21f-e5192b727d69" msprop:DbColumnName="LastUpdated" msprop:FriendlyName="LastUpdated" type="xs:dateTime" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_DIM_States" msprop:design-time-name="a94fc3d2-c8d1-4d2d-a3a7-318b636a2fda" msprop:FriendlyName="DIM_States" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_States" msprop:TableType="Table">
+                <xs:element name="dbo_DIM_Counties" msprop:design-time-name="466e91ab-47bb-49c5-a727-d543b7f27eed" msprop:FriendlyName="DIM_Counties" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_Counties" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="StateSK" msprop:design-time-name="55ed7198-12ac-4d72-8af5-06f9bb3cc088" msprop:DbColumnName="StateSK" msprop:FriendlyName="StateSK" type="xs:int" />
-                      <xs:element name="StateCode" msprop:design-time-name="31899552-917a-4276-9942-c31fa4fb9255" msprop:DbColumnName="StateCode" msprop:FriendlyName="StateCode" type="xs:int" />
-                      <xs:element name="StateName" msprop:design-time-name="121f2a00-012b-49dc-adbd-b273c9be3241" msprop:DbColumnName="StateName" msprop:FriendlyName="StateName" minOccurs="0">
+                      <xs:element name="CountySK" msprop:design-time-name="8f6fecdb-5dfa-4071-b2f4-f0fa58f8f861" msprop:DbColumnName="CountySK" msprop:FriendlyName="CountySK" type="xs:int" />
+                      <xs:element name="CountyName" msprop:design-time-name="ca9e4936-effb-481e-be73-5e5d5036d224" msprop:DbColumnName="CountyName" msprop:FriendlyName="CountyName" minOccurs="0">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
                             <xs:maxLength value="50" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="Created" msprop:design-time-name="64fd3c58-7fec-4beb-8e5a-80c7168af1dd" msprop:DbColumnName="Created" msprop:FriendlyName="Created" type="xs:dateTime" minOccurs="0" />
-                      <xs:element name="LastUpdated" msprop:design-time-name="6de9769a-98ac-4274-ba7a-d12be24dbf0c" msprop:DbColumnName="LastUpdated" msprop:FriendlyName="LastUpdated" type="xs:dateTime" minOccurs="0" />
-                      <xs:element name="Status" msprop:design-time-name="55fb2f91-2c2d-4f88-bfe5-ecbc215efbe6" msprop:DbColumnName="Status" msprop:FriendlyName="Status" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="CountyASCII" msprop:design-time-name="8fc86e0c-3dd5-4260-b06f-1d01189c9905" msprop:DbColumnName="CountyASCII" msprop:FriendlyName="CountyASCII" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="CountyFull" msprop:design-time-name="72e39aea-5680-49ef-9885-9f5dc4fae79a" msprop:DbColumnName="CountyFull" msprop:FriendlyName="CountyFull" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="CountyFips" msprop:design-time-name="b20020a6-de47-4f44-ad49-e52af3d24fe4" msprop:DbColumnName="CountyFips" msprop:FriendlyName="CountyFips" type="xs:int" minOccurs="0" />
+                      <xs:element name="Population" msprop:design-time-name="55641886-864f-4637-8e0b-9ad413a77fb3" msprop:DbColumnName="Population" msprop:FriendlyName="Population" type="xs:int" minOccurs="0" />
+                      <xs:element name="Created" msprop:design-time-name="6a2978fd-b1cb-49bd-ad83-dff827c0363a" msprop:DbColumnName="Created" msprop:FriendlyName="Created" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="LastUpdated" msprop:design-time-name="6c3bb250-7a76-4955-b463-d9d07c40209b" msprop:DbColumnName="LastUpdated" msprop:FriendlyName="LastUpdated" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="StateSK" msprop:design-time-name="0407ec45-0e4a-4741-a14e-fdea654c1862" msprop:DbColumnName="StateSK" msprop:FriendlyName="StateSK" type="xs:int" />
+                      <xs:element name="Status" msprop:design-time-name="23f1d93f-01d4-456b-a96d-8eff1d1cc403" msprop:DbColumnName="Status" msprop:FriendlyName="Status" type="xs:boolean" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
-                <xs:element name="dbo_DIM_Date" msprop:design-time-name="de771abf-5569-4d29-b9ec-7edea157b677" msprop:FriendlyName="DIM_Date" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_Date" msprop:TableType="Table">
+                <xs:element name="dbo_DIM_States" msprop:design-time-name="110bfeeb-6b25-4dd4-a3f5-8a11fc13aa22" msprop:FriendlyName="DIM_States" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_States" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="DateSK" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f80cb77b-3113-42e1-8b05-db33b936d8dd" msprop:DbColumnName="DateSK" msprop:FriendlyName="DateSK" type="xs:int" />
-                      <xs:element name="Day" msprop:design-time-name="01055da0-a3c2-49d9-a32f-de33ff8e3a03" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:int" minOccurs="0" />
-                      <xs:element name="Month" msprop:design-time-name="0a489e90-7b10-495f-ac14-d935be35d9c1" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:int" minOccurs="0" />
-                      <xs:element name="Quarter" msprop:design-time-name="af28db7e-f526-4014-ae8d-280053fa9a43" msprop:DbColumnName="Quarter" msprop:FriendlyName="Quarter" type="xs:int" minOccurs="0" />
-                      <xs:element name="Year" msprop:design-time-name="c25f2894-b252-47b8-b1b4-c440c19e267e" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:int" minOccurs="0" />
-                      <xs:element name="Date" msprop:design-time-name="8c614d2f-cd36-4f7a-b706-47ad6686a1e2" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="StateSK" msprop:design-time-name="6dc3869e-ae3a-488a-b0c9-4e14ef42de54" msprop:DbColumnName="StateSK" msprop:FriendlyName="StateSK" type="xs:int" />
+                      <xs:element name="StateCode" msprop:design-time-name="b14e5047-0ebb-4a59-a78f-a864aac632f6" msprop:DbColumnName="StateCode" msprop:FriendlyName="StateCode" type="xs:int" />
+                      <xs:element name="StateName" msprop:design-time-name="d1f9b4f3-c0fa-4c8a-a74f-d6aa3502d835" msprop:DbColumnName="StateName" msprop:FriendlyName="StateName" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Created" msprop:design-time-name="9d6410d8-0026-413f-8c91-81da04c827c4" msprop:DbColumnName="Created" msprop:FriendlyName="Created" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="LastUpdated" msprop:design-time-name="3bda63a6-370a-476e-be98-f33ac7f217be" msprop:DbColumnName="LastUpdated" msprop:FriendlyName="LastUpdated" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Status" msprop:design-time-name="be6d060c-14a4-4f6b-a6b0-e8689081dedd" msprop:DbColumnName="Status" msprop:FriendlyName="Status" type="xs:boolean" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_DIM_Date" msprop:design-time-name="5340cc24-8007-457f-a019-4c066b34fa14" msprop:FriendlyName="DIM_Date" msprop:DbSchemaName="dbo" msprop:DbTableName="DIM_Date" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="DateSK" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="8a49f221-6af7-47cf-b565-3aa5f1b95649" msprop:DbColumnName="DateSK" msprop:FriendlyName="DateSK" type="xs:int" />
+                      <xs:element name="Day" msprop:design-time-name="ff6ca4b2-c6c4-4301-bd7c-33624dcbffc1" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:int" minOccurs="0" />
+                      <xs:element name="Month" msprop:design-time-name="2d2f2446-b896-4396-9d5a-421a7b8f41c3" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:int" minOccurs="0" />
+                      <xs:element name="Quarter" msprop:design-time-name="c73d2405-7f46-408a-a924-c220cb932fc1" msprop:DbColumnName="Quarter" msprop:FriendlyName="Quarter" type="xs:int" minOccurs="0" />
+                      <xs:element name="Year" msprop:design-time-name="73400a2c-71c8-478e-bde5-226fb1a1e453" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:int" minOccurs="0" />
+                      <xs:element name="Date" msprop:design-time-name="cf954f2b-5fc2-4600-a4f0-c811f946fe86" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="DayLightSaving" msprop:design-time-name="346163a5-8033-4160-9d4b-e5eb9beb7f91" msprop:DbColumnName="DayLightSaving" msprop:FriendlyName="DayLightSaving" type="xs:boolean" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
@@ -794,6 +1071,10 @@
               <xs:selector xpath=".//dbo_FACT_AirQuality" />
               <xs:field xpath="AirDataSK" />
             </xs:unique>
+            <xs:unique name="dbo_DIM_Counties_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_DIM_Counties" />
+              <xs:field xpath="CountySK" />
+            </xs:unique>
             <xs:unique name="dbo_DIM_States_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
               <xs:selector xpath=".//dbo_DIM_States" />
               <xs:field xpath="StateSK" />
@@ -802,6 +1083,10 @@
               <xs:selector xpath=".//dbo_DIM_Date" />
               <xs:field xpath="DateSK" />
             </xs:unique>
+            <xs:keyref name="FK_DIM_Counties_DIM_States" refer="dbo_DIM_States_Constraint1">
+              <xs:selector xpath=".//dbo_DIM_Counties" />
+              <xs:field xpath="StateSK" />
+            </xs:keyref>
             <xs:keyref name="FK_FACT_AirQuality_DIM_States" refer="dbo_DIM_States_Constraint1">
               <xs:selector xpath=".//dbo_FACT_AirQuality" />
               <xs:field xpath="StateSK" />
@@ -809,6 +1094,10 @@
             <xs:keyref name="FK_FACT_AirQuality_DIM_Date" refer="dbo_DIM_Date_Constraint1">
               <xs:selector xpath=".//dbo_FACT_AirQuality" />
               <xs:field xpath="DateSK" />
+            </xs:keyref>
+            <xs:keyref name="FK_FACT_AirQuality_DIM_Counties" refer="dbo_DIM_Counties_Constraint1">
+              <xs:selector xpath=".//dbo_FACT_AirQuality" />
+              <xs:field xpath="CountySK" />
             </xs:keyref>
           </xs:element>
         </xs:schema>

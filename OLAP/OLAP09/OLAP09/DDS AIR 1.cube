@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f10dfd80-0a48-43a4-aef0-c6124184133b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="47fdad75-81de-4d68-9324-5eccaf26b443" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DDS AIR 1</ID>
   <Name>DDS AIR 1</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="9" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9336" scrolltop="-20" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="83" x="24130" y="11091" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9336" scrolltop="2505" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="83" x="24130" y="9335" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_States" left="6844" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_States" left="6869" top="6146" logicalid="9" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Date" left="732" top="9759" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Date" left="732" top="9759" logicalid="10" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_AirQuality" left="20" top="2533" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4424" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_AirQuality" left="20" top="2533" logicalid="11" controlid="3" masterid="0" hint1="0" hint2="0" width="4424" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e000048110000da120000" />
             </control>
@@ -52,18 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Counties" left="6844" top="5427" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000072110000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_DIM_Counties" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4144" top="1114" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="3032" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4144" top="3546" logicalid="13" controlid="5" masterid="0" hint1="0" hint2="0" width="3025" height="4513" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -77,31 +66,13 @@
               </ddsxmlobj>
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6844" y="1513" />
-              <point x="5644" y="1513" />
+              <point x="6869" y="7659" />
+              <point x="5644" y="7659" />
               <point x="5644" y="3846" />
               <point x="4444" y="3846" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="7945" top="2528" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_DIM_Counties_DIM_States]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="8344" y="3027" />
-              <point x="8344" y="5427" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1833" top="7059" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1833" top="7059" logicalid="15" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -117,26 +88,6 @@
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="2232" y="9759" />
               <point x="2232" y="7359" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4144" top="5196" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="2864" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_FACT_AirQuality_DIM_Counties]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="16" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6844" y="7660" />
-              <point x="5644" y="7660" />
-              <point x="5644" y="5496" />
-              <point x="4444" y="5496" />
             </connector>
           </ddscontrol>
         </dds>
@@ -160,7 +111,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-20</Value>
+      <Value>2505</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -168,7 +119,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>2533</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -178,123 +129,132 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="07be4c4b-325c-479b-9c52-f9f1c89aaa3e">
+    <Dimension dwd:design-time-name="0c1e0589-8f7d-4a89-bd1a-3c9a39d6aa85">
       <ID>FACT Air Quality</ID>
       <Name>FACT Air Quality</Name>
       <DimensionID>FACT Air Quality</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d673ff2b-7d1b-490a-ac6d-7e4efa164278">
+        <Attribute dwd:design-time-name="e830b02c-4f8a-487b-be59-049449f08715">
           <AttributeID>Air Data SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bede3eab-0749-4631-8ca9-5292949b0840">
+        <Attribute dwd:design-time-name="82ac2a57-d45e-4540-aea0-609ea975a06a">
           <AttributeID>County SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="611eac13-bbee-442f-be07-ebfd68262b37">
+        <Attribute dwd:design-time-name="42c89ede-6b49-4633-b483-b46e1111b66f">
           <AttributeID>Date SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="502340b1-550c-4049-9438-5f7fd82a8d13">
+        <Attribute dwd:design-time-name="5876db13-37f8-4465-9d99-baa4ab329459">
           <AttributeID>State SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="93dab25d-9b96-4267-bcec-ec2a47aa0a3a">
+        <Attribute dwd:design-time-name="205b4049-4437-4d43-af65-e770b963868d">
           <AttributeID>Category</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="04269799-cf85-405a-b562-65a739fa3231">
+        <Hierarchy dwd:design-time-name="a7c2702c-e91a-4716-9001-22c16f022a9a">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="a7ff4485-e54e-4b32-945c-9e0c9a9752ed">
+    <Dimension dwd:design-time-name="94edb4ee-c99b-4c16-84e3-b6004b9c037c">
       <ID>DIM Counties</ID>
       <Name>DIM Counties</Name>
       <DimensionID>DIM Counties</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="fc620cd6-20f6-4521-a473-e7cbcd00386e">
+        <Attribute dwd:design-time-name="52a6fd2c-cea3-460d-8ee3-c5e2f9f87a50">
           <AttributeID>County SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f0182e64-1700-4e6e-9a41-3c39f41adf91">
+        <Attribute dwd:design-time-name="0a94ef6a-ac5b-419e-9db6-a4fffbe263c4">
           <AttributeID>State SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f9fb792c-6250-4be6-ace3-144968f11558">
+        <Attribute dwd:design-time-name="fa8b157e-1615-462b-9805-151ca50e4dcd">
           <AttributeID>County Name</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="8df05a39-aad9-49a1-8e2a-b2b988c5b2f1">
+        <Hierarchy dwd:design-time-name="6f7c2e94-9b15-4dc0-9909-c38d4dd2f3d8">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="77b45a49-c114-4e97-9829-7c897083715f">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="01be9fd4-5bec-4ed0-849c-4dbb773e82f4">
+    <Dimension dwd:design-time-name="98381ab0-a0c0-4c88-b541-c8fed8003828">
       <ID>DIM Date</ID>
       <Name>DIM Date</Name>
       <DimensionID>DIM Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="29c11689-e467-49af-a829-addd7831303f">
+        <Attribute dwd:design-time-name="bf2b2cbe-42e1-478a-ac10-063b6aed3818">
           <AttributeID>Date SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="aef5eb2e-c1c5-4ce9-bc00-f7800e2c7da9">
+        <Attribute dwd:design-time-name="ab8c311d-8255-4399-b56f-9bafbe9d3897">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8db34727-126e-483a-8bae-f347f519e295">
+        <Attribute dwd:design-time-name="42c59ff2-8e06-467e-bb04-c960052a1923">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cf8e1323-b0ea-4992-8313-8c0169eab68a">
+        <Attribute dwd:design-time-name="5afe98bf-4fa2-4ac6-808e-da4b31a8ad46">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e5eec31e-7f6c-414c-8d12-c6f0882d251e">
+        <Attribute dwd:design-time-name="0e75d152-d1f9-4eb4-80e0-2db9d5822fb4">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="13b16d06-75e8-411c-b2ce-709a17377124">
+        <Attribute dwd:design-time-name="8b76661e-1d49-435b-ab9c-2ff1490ba881">
           <AttributeID>Date</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="4dcaf682-fbb7-4d65-99e4-5780b194fcf6">
+        <Hierarchy dwd:design-time-name="eb5f4520-dcd7-42d6-8e8f-2d1d7ffd2626">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="07eb1b49-b203-4dba-85e0-54efda2c3806">
+    <Dimension dwd:design-time-name="76a8902e-edfa-4044-95ef-4e0aa9aa9538">
       <ID>DIM States</ID>
       <Name>DIM States</Name>
       <DimensionID>DIM States</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="90cfc0a9-94da-4dc9-a63a-c7478a3d8a7d">
+        <Attribute dwd:design-time-name="132dcfa3-646c-46f9-9034-195816886397">
           <AttributeID>State SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="90885355-eb21-450e-a55a-a1b0d0f7a5b9">
+        <Attribute dwd:design-time-name="40d7433f-2739-40df-82cb-6ec08811b62c">
           <AttributeID>State Name</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="450421ef-b6dd-4344-8f6a-ab03bc1c6d61">
+        <Hierarchy dwd:design-time-name="fdf04858-4cf3-464d-a072-2b6c12fa94d5">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="29f539d9-af1d-4414-8e51-7c0979e7db7b">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="c4ac4c2d-29f2-495f-9799-4d800fba56ca">
+    <Dimension dwd:design-time-name="d99a910c-62fe-41dc-b3c0-05cbaf3ac713">
       <ID>DIM Counties - State SK</ID>
       <Name>DIM Counties - State SK</Name>
       <DimensionID>DIM States</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0aa25611-bef7-4b9a-b40f-9716ea6134c0">
+        <Attribute dwd:design-time-name="75994f57-9ea8-46e0-ba95-9a2e2510a542">
           <AttributeID>State SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cbecf2b9-778b-4d16-ad5f-76e8044c3172">
+        <Attribute dwd:design-time-name="862d54c5-0a47-414b-8fd7-351736372189">
           <AttributeID>State Name</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="ab0daf39-ef92-494b-8324-9193e64e4ee7">
+        <Hierarchy dwd:design-time-name="4eff543f-b68b-4ff8-8794-2554e27e5fdf">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="a90f8919-c036-453e-aed8-364e13276e97">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="195a4d34-6ad6-4e45-b24a-bc9aa09fe75e">
+    <MeasureGroup dwd:design-time-name="7253301d-e259-4cf0-a448-e0eddb70532d">
       <ID>FACT Air Quality</ID>
       <Name>FACT Air Quality</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -302,12 +262,48 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="884b82e3-39ee-4334-97f0-355505f1cedd">
+        <Measure dwd:design-time-name="6609b8aa-8213-4cfd-b42a-6925be676140">
           <ID>AQI</ID>
           <Name>AQI</Name>
-          <Source dwd:design-time-name="aecccb4d-b39e-4e32-85df-8147a55b0ae3">
+          <Source dwd:design-time-name="dbca550e-11f2-411b-9d13-b5b08d905305">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="60ed1b25-aeb2-4978-b8cf-ec406c3f61b1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3fad3f47-4588-4497-9018-f402a363f52f">
+              <TableID>dbo_FACT_AirQuality</TableID>
+              <ColumnID>AQI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6db62c8c-f08c-4fea-abb4-631ac2eedd68">
+          <ID>AQI - FACT Air Quality</ID>
+          <Name>Mean AQI</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="907b33b6-74fd-47cf-a43f-0e95f190c11f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0c2463e2-d2f8-4334-9e9f-ee28e2f62ab2">
+              <TableID>dbo_FACT_AirQuality</TableID>
+              <ColumnID>AQI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f28a33df-cefa-4ead-8fc1-2685d632d0f0">
+          <ID>Minimum AQI</ID>
+          <Name>Minimum AQI</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="d8e1b321-c489-48af-841c-1c0527272f77">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0a76486f-fa6d-40b4-bc55-c2863c7a3717">
+              <TableID>dbo_FACT_AirQuality</TableID>
+              <ColumnID>AQI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1d42d95e-0a45-4186-b3c1-256c9c3eb010">
+          <ID>Maximum AQI</ID>
+          <Name>Maximum AQI</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="9a44328d-0396-4217-8149-9c00d1482789">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="219d8058-0247-4d71-86e8-60d7eca473bf">
               <TableID>dbo_FACT_AirQuality</TableID>
               <ColumnID>AQI</ColumnID>
             </Source>
@@ -317,15 +313,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9da1b22b-2004-4884-ae27-dd8c10628c38">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f004d3fc-0c9d-4528-92df-9919071e165d">
           <CubeDimensionID>FACT Air Quality</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="d92128f4-ea59-440c-bdfb-b2ee0e562732">
+            <Attribute dwd:design-time-name="ee399929-6754-412d-9823-4ef35ec247ed">
               <AttributeID>Air Data SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="49d3cfe2-286b-4959-8b66-25976ff4e9f0">
+                <KeyColumn dwd:design-time-name="0cabd7b2-aaf4-4129-89c9-d4ddda5eae52">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2e7ef210-b87c-4d04-b94e-a3f58f4a9d44">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d969fb39-58fd-436d-979e-b9fd7c5f5973">
                     <TableID>dbo_FACT_AirQuality</TableID>
                     <ColumnID>AirDataSK</ColumnID>
                   </Source>
@@ -335,15 +331,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="535c7ad8-903c-4e68-bc13-4fc9e052611e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf472245-987d-4be7-ab87-06fcea1ee196">
           <CubeDimensionID>DIM Counties</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b6c3eab1-f17c-4673-8cbc-d1c5c9f880b0">
+            <Attribute dwd:design-time-name="8018e916-866c-49b9-aa34-b20e810b488c">
               <AttributeID>County SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cae6d9fc-668d-44b4-89bd-d5161043d2b9">
+                <KeyColumn dwd:design-time-name="d7015733-c8e5-4a42-8e8d-015c96afc199">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8a2e1cd-5588-4689-ad25-eabedc6c90b5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="60282d7f-2c78-472d-8498-46fc3ccb95f7">
                     <TableID>dbo_FACT_AirQuality</TableID>
                     <ColumnID>CountySK</ColumnID>
                   </Source>
@@ -353,15 +349,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="de04e0e7-c547-419f-8757-4239fc6bd8ca">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4116c34d-fa2d-470f-8047-8b028b684545">
           <CubeDimensionID>DIM Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e743b521-716c-47e0-b445-69c23dbf600c">
+            <Attribute dwd:design-time-name="933c7578-1747-45d6-b408-f6ba763edabb">
               <AttributeID>Date SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fb045fc4-3dcd-43b2-a360-f877afdcf39b">
+                <KeyColumn dwd:design-time-name="7f5c4b5d-aea6-4849-8887-279da469b70c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0fec85eb-04fb-428d-8fd9-c688fd390b03">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1437a3f1-098f-4bad-bfcc-d47ad6758c13">
                     <TableID>dbo_FACT_AirQuality</TableID>
                     <ColumnID>DateSK</ColumnID>
                   </Source>
@@ -371,15 +367,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5c9e2567-a662-465a-921d-b6e3390fab7f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c4d21637-87a3-4087-bb0c-95810d6d7a91">
           <CubeDimensionID>DIM States</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="828464d3-dc7c-4008-8138-b6410849ebbd">
+            <Attribute dwd:design-time-name="4dae043c-ac1c-48af-af58-065914de3f02">
               <AttributeID>State SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="97e1a7e0-c4a2-4902-a46a-7f3af83960b8">
+                <KeyColumn dwd:design-time-name="9cc05f5d-621a-4f59-aa29-ef8fb329f55a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b386d1b-c689-49c3-81b3-b08bd6583779">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d24ac685-a1f9-4a62-b499-d6fa2d66c403">
                     <TableID>dbo_FACT_AirQuality</TableID>
                     <ColumnID>StateSK</ColumnID>
                   </Source>
@@ -389,10 +385,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b137fdfd-e8ca-4a14-b5f0-3dd555c5e611">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2a4ed888-3d05-41c1-bb71-5d58d411bda3">
           <CubeDimensionID>DIM Counties - State SK</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dd6bd935-c17e-4bd9-b036-9290998af32e">
+            <Attribute dwd:design-time-name="2cca4756-27a0-4e06-98a7-594db7f3a1e1">
               <AttributeID>State SK</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -406,7 +402,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="d945afde-ac42-4cb6-a73a-6d11ad9b8eaa">
+  <Source dwd:design-time-name="d39800e2-6076-4c90-b3c6-40bfcd6c4ff0">
     <DataSourceViewID>DDS AIR</DataSourceViewID>
   </Source>
 </Cube>

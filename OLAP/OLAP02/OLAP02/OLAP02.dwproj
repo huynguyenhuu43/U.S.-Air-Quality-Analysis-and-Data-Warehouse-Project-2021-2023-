@@ -27,6 +27,10 @@
       <Name>DIM Date.dim</Name>
       <FullPath>DIM Date.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Counties.dim</Name>
+      <FullPath>DIM Counties.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

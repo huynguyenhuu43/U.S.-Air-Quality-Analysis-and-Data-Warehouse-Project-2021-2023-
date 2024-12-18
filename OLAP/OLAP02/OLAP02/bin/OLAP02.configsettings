@@ -17,6 +17,9 @@
       <Dimension>
         <ID>DIM Date</ID>
       </Dimension>
+      <Dimension>
+        <ID>DIM Counties</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
